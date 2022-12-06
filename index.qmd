@@ -7,9 +7,9 @@ title-block-categories: true
 title-block-style: 'default' 
 email-obfuscation: references #Specify a method for obfuscating mailto: links in HTML documents. javascript: Obfuscate links using JavaScript. references: Obfuscate links by printing their letters as decimal or hexadecimal character references. none (default): Do not obfuscate links. não funciona
 author: 
-  - name: <b>THIAGO CORTEZ COSTA</b> <br> Doutorando em Ciência Política <br> thiago.cortez@teste.com.br
+  - name: <b>THIAGO CORTEZ COSTA</b> <br> Doutorando em Ciência Política <br> thiago.cortez@blaabr
     orcid: https://orcid.org/0000-0002-5365-4732
-    email: thiago.cortez@teste.com.be
+    email: thiago.cortez@blaabr
     affiliations: 
       - name: Instituto de Ciência Política <br> Universidade de Brasília <br> Brasília, Brasil  
         address: Instituto de Ciência Política, Universidade de Brasília
