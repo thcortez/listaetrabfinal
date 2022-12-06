@@ -1,0 +1,1903 @@
+---
+title: "TRABALHO, FAMÍLIA, GÊNERO, RELIGIÃO E DEMOCRACIA"
+subtitle: "Evidências de survey sobre estruturas sociais e comportamento político de homens e mulheres no Brasil"
+lang: pt
+title-block-banner: true
+title-block-categories: true
+title-block-style: 'default' 
+email-obfuscation: references #Specify a method for obfuscating mailto: links in HTML documents. javascript: Obfuscate links using JavaScript. references: Obfuscate links by printing their letters as decimal or hexadecimal character references. none (default): Do not obfuscate links. não funciona
+author: 
+  - name: <b>THIAGO CORTEZ COSTA</b> <br> Doutorando em Ciência Política <br> thiago.cortez@teste.com.br
+    orcid: https://orcid.org/0000-0002-5365-4732
+    email: thiago.cortez@teste.com.be
+    affiliations: 
+      - name: Instituto de Ciência Política <br> Universidade de Brasília <br> Brasília, Brasil  
+        address: Instituto de Ciência Política, Universidade de Brasília
+        city: Brasília
+        country: Brasil
+Abstract: "CONTEXTO - Que fatores explicam interesse e comportamento político? O rol de respostas já produzidas para a questão é extenso e provavelmente tão diverso quanto o são as ciências humanas e as teorias criadas em seus domínios. Este trabalho se concentra sobre uma porção específica do debate - aquela que entende o comportamento político de indivíduos e grupos como resultado de cultura, família, divisão do trabalho, relações de gênero, tradições, religião e pertencimentos a classes sociais. São fatores explicativos bastante distintos, cada um podendo se constituir como campo de estudo próprio e separado dos demais. Mesmo em face da complexidade que o assunto impõe e da consequente limitação a que a empreitada se sujeita, acreditamos ser relevante a tentativa de articular tais questões numa abordagem empírica e verificar como se comportam dados obtidos de uma pesquisa de opinião. RELEVÂNCIA: 1) Ramo importante dos estudos de comportamento político é voltado à compreensão do eleitor em relação ao processo eleioral, com foco para conceitos como sofisticação política, decisão do voto e aquisição de informação. O predomínio dessa agenda de pesquisa se justifica na própria centralidade do voto para o regime democrático.  Costuma-se segmentar a população em estratos para compreender processos sociais. Estas estratificações geralmente são inspiradas em teorias sociais, econômicas e políticas que apontam os estratos como características fundantes - estruturas enraizadas na sociedade a diferenciar os indivíduos entre si, delimitando experiências e possibilidades pessoais, determinando suas escolhas. 2) Conquanto estruturalistas - em sentido lato - apresentem leituras contundentes das relações sociais na perspectiva dos macroprocessos históricos, certo determinismo social que daí advém acaba restringindo sua capacidade de explicar contextos individuais. Importantes desenvolvimentos teóricos têm ocorrido de forma discursiva, dedutiva. Nem sempre são formal e estatisticamente testados face à evidência empírica de comportamentos individuais, restando espaço para contribuição. O presente estudo se justifica, portanto, por propor o teste de  hipóteses de inspiração estruturalista para analisar o comportamento político de indivíduos. Para isso, transcende tanto os limites da política eleitoral prevalente nos estudos de comportamento político, bem como as fronteiras usualmente atribuídas ao estruturalismo. METODOLOGIA - Pesquisa amostral de opinião pública nacional. População alvo - brasileiros(as) maiores de 16 anos, residentes no país, com acesso a telefonia fixa. Amostra probabilística em todos os estágios, com estratificação por UF e alocação proporcional ao tamanho da população. Números telefônicos sorteados aleatoriamente a partir de cadastro oficial da Anatel. Análise descritiva combinada com inferência estatística e teste formal de hipóteses. Regressão linear generalizada. RESULTADOS - Os resultados se ajustam bem às teses feministas, que vêm no  gênero uma das distinções fundantes de nossas sociedades. Já a avaliação das explicações embasadas em conceitos de cultura política está um tanto restrita em face dos dados, os quais apontam ao mesmo tempo para a possibilidade de interpretações de origem marxista.Também porque a abordagem culturalista parece ter se confundido com outras, de modo que variáveis destacadas em outras vertentes podem também ser consideradas integrantes do que seria uma cultura política. Por último, encontraram pouco apoio nos dados analisados as hipóteses inspiradas no institucionalismo e também aquelas que associamos ao conceito de poder simbólico. CONCLUSÃO: Mais do que um exercício intelectual de teste de teorias, este trabalho aponta para o fato de que se, enquanto sociedade, entendemos a desigualdade como um problema, as questões suscitadas pelas teorias feministas em relação às desigualdades de gênero são ainda mais prementes. Por último, os resultados despertam atenção para potencial da interseccionalidade - que não abordamos aqui pela limitação dos dados, mas que pode se constituir em importante desdobramento futuro no âmbito desta pesquisa."
+date: '`r format(Sys.Date())`' #estabelece que dia deve constar no documento, ou o formato da data. No caso, o código indica que a data deverá ser aquela do dia em que o documento for renderizado (exportado).
+pagetitle: "TRABALHO, FAMÍLIA, GÊNERO, RELIGIÃO E DEMOCRACIA" #Sets the title metadata for the document
+description-meta: "CONTEXTO - Que fatores explicam interesse e comportamento político? O rol de respostas já produzidas para a questão é extenso e provavelmente tão diverso quanto o são as ciências humanas e as teorias criadas em seus domínios. Este trabalho se concentra sobre uma porção específica do debate - aquela que entende o comportamento político de indivíduos e grupos como resultado de cultura, família, divisão do trabalho, relações de gênero, tradições, religião e pertencimentos a classes sociais. São fatores explicativos bastante distintos, cada um podendo se constituir como campo de estudo próprio e separado dos demais. Mesmo em face da complexidade que o assunto impõe e da consequente limitação a que a empreitada se sujeita, acreditamos ser relevante a tentativa de articular tais questões numa abordagem empírica e verificar como se comportam dados obtidos de uma pesquisa de opinião. RELEVÂNCIA: 1) Ramo importante dos estudos de comportamento político é voltado à compreensão do eleitor em relação ao processo eleioral, com foco para conceitos como sofisticação política, decisão do voto e aquisição de informação. O predomínio dessa agenda de pesquisa se justifica na própria centralidade do voto para o regime democrático.  Nesse campo, costuma-se segmentar a população em estratos para compreender processos sociais. Estas estratificações geralmente são inspiradas em teorias sociais, econômicas e políticas que apontam os estratos como características fundantes - estruturas enraizadas na sociedade a diferenciar os indivíduos entre si, delimitando experiências e possibilidades pessoais, determinando suas escolhas. 2) Conquanto estruturalistas - em sentido lato - apresentem leituras contundentes das relações sociais na perspectiva dos macroprocessos históricos, sua capacidade de explicar contextos individuais é um tanto restrita. Importantes desenvolvimentos teóricos têm ocorrido de forma discursiva, dedutiva. Nem sempre são formal e estatisticamente testados face à evidência empírica de comportamentos individuais, restando espaço para contribuição. O presente estudo se justifica, portanto, por propor o teste de  hipóteses de inspiração estruturalista para analisar o comportamento político de indivíduos. Para isso, transcende tanto os limites da política eleitoral prevalente nos estudos de comportamento político, bem como as fronteiras usualmente atribuídas ao estruturalismo. METODOLOGIA - Pesquisa amostral de opinião pública nacional. População alvo - brasileiros(as) maiores de 16 anos, residentes no país, com acesso a telefonia fixa. Amostra probabilística em todos os estágios, com estratificação por UF e alocação proporcional ao tamanho da população. Números telefônicos sorteados aleatoriamente a partir de cadastro oficial da Anatel. Análise descritiva combinada com inferência estatística e teste formal de hipóteses. Regressão linear generalizada. RESULTADOS - Os resultados se ajustam bem às teses feministas, que vêm no  gênero uma das distinções fundantes de nossas sociedades. Já a avaliação das explicações embasadas em conceitos de cultura política está um tanto restrita em face dos dados, os quais apontam ao mesmo tempo para a possibilidade de interpretações de origem marxista.Também porque a abordagem culturalista parece ter se confundido com outras, de modo que variáveis destacadas em outras vertentes podem também ser consideradas integrantes do que seria uma cultura política. Por último, encontraram pouco apoio nos dados analisados as hipóteses inspiradas no institucionalismo e também aquelas que associamos ao conceito de poder simbólico. CONCLUSÃO: Mais do que um exercício intelectual de teste de teorias, este trabalho aponta para o fato de que se, enquanto sociedade, entendemos a desigualdade como um problema, as questões suscitadas pelas teorias feministas em relação às desigualdades de gênero são ainda mais prementes. Por último, os resultados despertam atenção para potencial da interseccionalidade - que não abordamos aqui pela limitação dos dados, mas que pode se constituir em importante desdobramento futuro no âmbito desta pesquisa." #Specify STRING as a prefix at the beginning of the title that appears in the HTML header (but not in the title as it appears at the beginning of the body)
+author-meta: "Thiago Cortez Costa"
+format: 
+  html:
+    toc: true
+    toc-title: "ÍNDICE"
+    toc-location: left
+    fig-width: 10
+    fig-height: 5
+    #code-background: true ou esse comando, ou este abaixo
+    code-fold: show #Collapse code into an HTML <details> tag so the user can display it on-demand. true: collapse code. false (default): do not collapse code. show: use the <details> tag, but show the expanded code initially.
+    toc-depth: 2 #toc-depth option to specify the number of section levels to include in the table of contents. The default is 3 (which means that level-1, 2, and 3 headings will be listed in the contents).
+    number-sections: FALSE
+    number-depth: 3 #especifica a quantidade de subníveis a serem numerados abaixo das seções de capítulos
+    number-offset: 0 #[0,0] #especifica o número inteiro a partir do qual devem ser enumeradas as seções, nesse caso: [0,-], e as subseções, nesse caso: [-,0]. Se o documento devesse começar a ser contato em 1.5, number-offset deveria ser definido em [1,4].
+#reference-doc: #arquivo .docx cujo estilo deve ser aplicado ao presente documento
+#background-image: background-image3.png
+#background-repeat: no-repeat 
+#background-size: cover 
+#background-position: center
+#code-fold: true #colapse code (true, false, show)
+#code-summary: "ver código de objeto" #Summary text to use for code blocks collapsed using code-fold
+code-overflow: scroll #Choose how to handle code overflow, when code lines are too wide for their container. One of: scroll, wrap
+code-line-numbers: FALSE #Include line numbers in code block output (true or false). For revealjs output only, you can also specify a string to highlight specific lines (and/or animate between sets of highlighted lines). Animation steps are separated by |: 1-3|1-3,5 first shows 1-3, then 1-3,5|5|5-10,12 first shows no numbering, then 5, then lines 5-10 and 12
+code-copy: true #(true, false, hover)
+code-link: false #Enables hyper-linking of functions within code blocks to their online documentation. Code linking is currently implemented only for the knitr engine (via the downlit package). # highlight-style: Specifies the coloring style to be used in highlighted source code.Instead of a STYLE name, a JSON file with extension .theme may be supplied. This will be parsed as a KDE syntax highlighting theme and (if valid) used as the highlighting style. 
+#syntax-definitions: KDE language syntax definition files (XML)
+#indented-code-classes: Specify classes to use for all indented code blocks #Eecution options should be specified within the execute key. For example: #execute:     #echo: false     #warning: false
+execute: 
+  eval: true #avalia os códigos antes de gerar output. pode delimitar as linhas a serem avaliadas com: [...]
+  echo: fenced # true:include source code in rendered output. false: do not include source code in output. fenced: in addition to echoing, include the cell delimiter as part of the output. [...]: A list of positive or negative line numbers to selectively include or exclude lines (explicit inclusion/excusion of lines is available only when using the knitr engine)
+  output: true #Include the results of executing the code in the output. false: Do not include results. asis: Treat output as raw markdown with no enclosing containers.
+  warning: false #true: Include warnings in rendered output.false:do not include
+  error: false #if false, do not include errors in the output. (note that this implies that errors executing code will not halt processing of the document). #  include: ?? 
+  cache: true #cache results. Note that cache invalidation is triggered by changes in chunk source code (or other cache attributes you’ve defined). false: Do not cache results. refresh: Force a refresh of the cache even if has not been otherwise invalidated. 
+  freeze: auto #auto: Re-compute previously generated computational output only in case their source file changes. true: Never recompute previously generated computational output during a global project render. false (default): Recompute previously generated computational output. #FIGURES 
+fig-align: center #Figure horizontal alignment (default, left, right, or center)
+fig-cap-location: margin #Where to place figure captions (top, bottom, or margin) 
+fig-width: 600 #default width for figures generated by Matplotlib or R graphics 
+fig-height: 400 #Default height for figures generated by Matplotlib or R graphics
+#fig-format: png #Default format for figures generated by Matplotlib or R graphics (retina, png, jpeg, svg, or pdf) #fig-dpi: Default DPI for figures generated by Matplotlib or R graphics 
+# fig-asp: The aspect ratio of the plot, i.e., the ratio of height/width. When fig-asp is specified, the height of a plot (the option fig-height) is calculated from fig-width * fig-asp.The fig-asp option is only available within the knitr engine. 
+fig-responsive: true #Whether to make images in this document responsive 
+#TABLES 
+tbl-colwidths: true #Apply explicit table column widths for markdown grid tables and pipe tables that are more than columns characters wide (72 by default). Some formats (e.g. HTML) do an excellent job automatically sizing table columns and so don’t benefit much from column width specifications. Other formats (e.g. LaTeX) require table column sizes in order to correctly flow longer cell content (this is a major reason why tables > 72 columns wide are assigned explicit widths by Pandoc). This can be specified as: auto: Apply markdown table column widths except when there is a hyperlink in the table (which tends to throw off automatic calculation of column widths based on the markdown text width of cells). (auto is the default for HTML output formats). true: Always apply markdown table widths (true is the default for all non-HTML formats). false: Never apply markdown table widths. An array of numbers (e.g. [40, 30, 30]): Array of explicit width percentages.
+tbl-cap-location: bottom #Where to place table captions (top, bottom, or margin)
+df-print: kable 
+#Method used to print tables in Knitr engine documents: default: Use the default S3 method for the data frame. kable: Markdown table using the knitr::kable() function. tibble: Plain text table using the tibble package. paged: HTML table with paging for row and column overflow. The default printing method is kable.
+#LINKS 
+#link-external-icon	#Show a special icon next to links that leave the current site #link-external-newwindow	#Open external links in a new browser window or tab (rather than navigating the current tab). #link-external-filter	# A regular expression that can be used to determine whether a link is an internal link. For example, the following will treat links that start with http://www.quarto.org as internal links (and others will be considered external): ^(?:http:|https:)\/\/www\.quarto\.org\/custom #REFERENCES 
+html-q-tags: true #Use <q> tags for quotes in HTML. 
+#theme: light  
+#indica o formato de output e o método
+highlight-style: github
+bibliography: library.bib #indica arquivo de origem contendo as referências bibliográficas citadas no documento
+csl: apa-6th-edition.csl #indica formato de citações e referencias bibliograficas
+cite-method: citeproc
+citeproc: true #ativa a função de citações e referências bibliograficas automáticas
+# citation: 
+# extract-media: true 
+editor: visual
+footertext: "testando o footertext" # texto para rodapé ativo
+standalone: true
+header-includes:  <center><img src="logo2.png"></center> 
+header: "teste do header para man pages"
+#block-headings:
+# headertext: este é um teste do headertext
+# footer: teste também do footer
+# pagenumbering: footer 
+# footer: _logo2.png # footer para constar em todos os slides?
+# hyphenate: true #não funciona
+# header: <img src="logo2.png"> não funciona
+#: Thiago Cortez Costa #header para páginas ímpares
+# lineheight: altura da linha - não funciona
+# linestretch: 12 também deveria ser altura da linha
+adjusting: b #alinhamento do texto "b" = both margins
+pagenumbering: c #posição do numero de pagina, deveria ser "c" (=centro), mas não apareceu nada
+---
+
+# RESUMO
+
+*CONTEXTO* - Que fatores explicam interesse e comportamento político? O rol de respostas já produzidas para a questão é extenso e provavelmente tão diverso quanto o são as ciências humanas e as teorias criadas em seus domínios. Este trabalho se concentra sobre uma porção específica do debate - aquela que entende o comportamento político de indivíduos e grupos como resultado de cultura, família, divisão do trabalho, relações de gênero, tradições, religião e pertencimentos a classes sociais. São fatores explicativos bastante distintos, cada um podendo se constituir como campo de estudo próprio e separado dos demais. Mesmo em face da complexidade que o assunto impõe e da consequente limitação a que a empreitada se sujeita, acreditamos ser relevante a tentativa de articular tais questões numa abordagem empírica e verificar como se comportam dados obtidos de uma pesquisa de opinião. *RELEVÂNCIA*: 1) Ramo importante do campo de estudos de comportamento político é voltado à compreensão do eleitor em relação ao processo eleioral, com foco para conceitos como sofisticação política, decisão do voto e aquisição de informação. O predomínio dessa agenda de pesquisa se justifica na própria centralidade do voto para o regime democrático. Nesse campo, costuma-se segmentar a população em estratos para compreender processos sociais. Estas estratificações geralmente são inspiradas em teorias sociais, econômicas e políticas que apontam os estratos como características fundantes - estruturas enraizadas na sociedade a diferenciar os indivíduos entre si, delimitando experiências e possibilidades pessoais, determinando suas escolhas. 2) Conquanto estruturalistas - em sentido lato - apresentem leituras contundentes das relações sociais na perspectiva dos macroprocessos históricos, sua capacidade de explicar contextos individuais é um tanto restrita. Importantes desenvolvimentos teóricos têm ocorrido de forma discursiva, dedutiva. Nem sempre são formal e estatisticamente testados face à evidência empírica de comportamentos individuais, restando espaço para contribuição. O presente estudo se justifica, portanto, por propor o teste de hipóteses de inspiração estruturalista para analisar o comportamento político de indivíduos. Para isso, transcende tanto os limites da política eleitoral prevalente nos estudos de comportamento político, bem como as fronteiras usualmente atribuídas ao estruturalismo. *METODOLOGIA* - Pesquisa amostral de opinião pública nacional. População alvo - brasileiros(as) maiores de 16 anos, residentes no país, com acesso a telefonia fixa. Amostra probabilística em todos os estágios, com estratificação por UF e alocação proporcional ao tamanho da população. Números telefônicos sorteados aleatoriamente a partir de cadastro oficial da Anatel. Análise descritiva combinada com inferência estatística e teste formal de hipóteses. Regressão linear generalizada. *RESULTADOS* - Os resultados se ajustam bem às teses feministas, que vêm no gênero uma das distinções fundantes de nossas sociedades. Já a avaliação das explicações embasadas em conceitos de cultura política está um tanto restrita em face dos dados, os quais apontam ao mesmo tempo para a possibilidade de interpretações de origem marxista.Também porque a abordagem culturalista parece ter se confundido com outras, de modo que variáveis destacadas em outras vertentes podem também ser consideradas integrantes do que seria uma cultura política. Por último, encontraram pouco apoio nos dados analisados as hipóteses inspiradas no institucionalismo e também aquelas que associamos ao conceito de poder simbólico. *CONCLUSÃO*: Mais do que um exercício intelectual de teste de teorias, este trabalho aponta para o fato de que se, enquanto sociedade, entendemos a desigualdade como um problema, as questões suscitadas pelas teorias feministas em relação às desigualdades de gênero são ainda mais prementes. Por último, os resultados despertam atenção para potencial explicativo da teoria interseccionalidade - a que não abordamos aqui pela limitação dos dados, que não incluiam informações sobre etnicidade. Futuros desenvolvimentos poderão se beneficiar da inclusão dessa perspectiva.
+
+PALAVRAS-CHAVE: comportamento político; democracia; interesse; participação; família; trabalho; casamento; dupla jornada; divisão sexual do trabalho; representação; gênero; sexo; idade; religião; renda;
+
+# ABSTRACT
+
+*CONTEXT* - What factors explain political interest and behavior? The list of answers already produced for the question is extensive and probably as diverse as Human Sciences and the theories created in their domains. This work focuses on a specific portion of the debate - that which understands the political behavior of individuals and groups as a result of culture, family, division of labor, gender relations, traditions, religion and belonging to social classes. They are quite distinct explanatory factors, each one of them could be constituted as its own field of study and separate from the others. In spite of the complexity that the subject imposes and the subsequent limitations to which this endeavor is subject, we believe to be relevant the attempt to articulate such questions in an empirical approach and verify how they relate to data obtained from an opinion poll. *RELEVANCE*: 1) An important branch of the field of political behavior studies is aimed at understanding voters in relation to the electoral process, focusing on concepts such as political sophistication, voting decisions and information acquisition. The predominance of this research agenda is justified by the very centrality of voting for the democratic regime. In this field, it is customary to segment the population into strata to understand social processes. These stratifications are generally inspired by social, economic and political theories that point to strata as founding characteristics - structures rooted in society that differentiate individuals from each other, delimiting personal experiences and possibilities, determining their choices. 2) Although structuralists - in a broad sense - present strong readings of social relations from the perspective of historical macro-processes, their ability to explain individual contexts is somewhat restricted. Important theoretical developments have taken place in a discursive, deductive way. They are not always formally and statistically tested against empirical evidence of individual behaviors, leaving room for contribution. The present study is justified, therefore, by proposing the test of hypotheses of structuralist inspiration to analyze the political behavior of individuals. For this, it transcends both the limits of electoral politics prevalent in studies of political behavior, as well as the boundaries usually attributed to structuralism. *METHODOLOGY*: Probabilistic sample survey of national opinions. Target population - Brazilians over 16 years old, residing in the country, with access to landline telephones. Probabilistic sample at all stages, with stratification by State (Federation Units) and allocation proportional to the size of the population. Telephone numbers drawn randomly from official comprehensive records. Descriptive analysis combined with statistical inference and formal hypothesis testing. Generalized linear regression. *RESULTS:* Data findings fits well with feminist theses, which see gender as one of the founding distinctions of our societies. The assessment of explanations based on concepts of political culture is somewhat restricted in view of the data, which point at the same time to the possibility of interpretations of Marxist origin. Also because the culturalist approach seems to have intermixed with other theories, in a way that variables highlighted by different frameworks could also be considered part of a political culture. In other venue, hypotheses inspired by institutionalism and also those we associate with the concept of symbolic power found little support in the analyzed data. *CONCLUSIONS*: More than an intellectual exercise in testing theories, this work points to the fact that if, as a society, we understand inequality as a problem, the issues raised by feminist theories in relation to gender inequalities are even more pressing. Finally, the results draw attention to the potential of intersectionality as a viable explanatory theory - but we could not address it here due to data limitations, as the original data didn't contain information on race or collour skin. Future developments and research could benefit from encompassing that perspective.
+
+KEYWORDS: political behavior; democracy; interest; participation; family; job; wedding; sexual division of labor; representation; genre; sex; age; religion; income;
+
+# INTRODUÇÃO
+
+Que fatores explicam interesse e desinteresse por política? O que influencia determinados indivíduos a querer se informar, conversar e participar da vida política enquanto, para outros, o tema é indiferente? Por que alguns indivíduos participam ativamente, chegando a se candidatar, e para outros a atividade é vista como inóqua?
+
+Perguntas relevantes em objeto caro à democracia, que é a participação e a representação cidadã. Ter uma população engajada parece ainda mais crucial em democracias em retração, pois a inclusão política poderia conferir mais legitimidade ao sistema.
+
+Apesar da relevância do tema, o contexto mundial é de baixos níveis de interesse e de participação - mesmo em democracias ditas estabelecidas ou avançadas. Identificar o perfil padrão de cidadão mais politizado, bem como as motivações daqueles menos engajados politicamente, pode contribuir para um diagnóstico e, quem sabe, vislumbrar soluções para o atrair a população à participação política.
+
+Este trabalho investiga variáveis individuais e seus possíveis impactos sobre o interesse político declarado por cidadãos. A hipótese é de que há, sim, questões pessoais a afetar comportamentos políticos, mas não se trata apenas de gosto, essência, aptidão inata nem personalidade.
+
+Outras variáveis explicativas são sugeridas a partir de revisão bibliográfica de estilo narrativa em que foram abordados estudos de perfil, recrutamento e carreira política. Tais estudos apontam um padrão de políticos com características recorrentes. Apontam também características quase totalmente ausentes.
+
+Veremos, por exemplo, estudos sobre carreira política, nos quais é traçado um perfil característico de candidatos e de eleitos, com certos padrões de entrada e de permanência na política. Tais estudos têm o mérito de apontar nos eleitos não apenas as suas características, mas também as suas 'não-características' - isto é, ao identificar as regularidades de perfil, de acesso e de atuação desses grupos no poder, é possível notar também as características que eles não têm.
+
+Tal reflexão traz em si mesma a desconcertante (embora não tão surpreendente) constatação de que nossos estudos sobre candidaturas, campanha e voto são em grande medida estudos do desempenho eleitoral de elites políticas. Até quando tratamos de representação política em eleições, os dados que fundamentam as análises são sobre um seleto grupo de candidatos e eleitos - e sobre como eles performam na disputa eleitoral. Obviamente, é uma perspectiva de inegável importância. Mas uma dúvida persiste: o que acontece no contexto da não-elite? Como ela se comporta?
+
+Temos já acumulado algum conhecimento sobre os critérios que os partidos utilizam para escolher candidatos: as características que valorizam, os perfis que buscam, os calculos que fazem para nomear candidatos em termos de probabilidade de vitória - ou pelo menos de agregação aos votos da legenda.
+
+Mas pelo outro lado, desde a visão dos não-candidatos, o que acontece? Quem são as pessoas que deixam de participar do processo eleitoral? Elas gostariam de se candidatar? Por que o fazem ou deixam de fazer?
+
+Isso nos leva a dar um passo atrás no estudo da desigualdade política e dos comportamentos eleitorais, para observar questões relativas à inclusão e os fatores que interferem nas motivações para atuar politicamente.
+
+A abstenção política e eleitoral se deve à simples vontade de não se envolver? Ou está constrangida por arranjos institucionais-legais e outros fatores exógenos como barreiras partidárias? Ou ainda, está condicionada por fatores como sua vida pessoal e carreira? Ter uma carreira, afinal, é um ativo em sua formação de capital político ou uma atividade paralela e concorrente? Enfim, que fatores interferem na entrada de indivíduos para a Política e que, por fim, acabam limitando as opções de voto à disposição do eleitorado? Creio que pensar o fortalecimento da democracia e a melhoria dos processos de representação deve incluir esses questionamentos.
+
+Desse modo, iniciamos com uma discussão sobre perfis, carreira e recrutamento de políticos (candidatos e eleitos) - acompanhada de apontamentos teóricos que sugerem explicações para as diferenças de perfil. Na sequencia apresentamos os dados de survey do DataSenado, com descrição da metodologia utilizada pelo Instituto na coleta dos dados, bem como da metodologia que fundamentará a presente análise.
+
+Na sequencia, apresentamos análise exploratória dos dados em gráficos, que iniciam a busca de fatores atrelados às diferenciações de interesse por política. Mais adiante, as relações sugeridas pelos gráficos são formalmente analisadas e testadas como hipóteses. Por fim, discutimos implicações dos achados do estudo, assim como possíveis desdobramentos.
+
+## Perfis preferenciais de acesso à política
+
+A bibliografia sobre recrutamento, carreira e representação política tem identificado certos perfis de indivíduos que adentram à vida pública e participam de eleições. Há, como veremos, um conjunto de recorrências a perpetuar características de certos grupos no poder, ao mesmo tempo que a manter outros grupos afastados.
+
+Na linha de pesquisa sobre carreiras políticas, Marenco contrasta período de 1946 a 1962, em que apurou que os parlamentares eleitos eram homens de longa carreira pública, com o período mais recente desde 1991 [@santos_fronteiras_1997, 1-5]. O período que se segue à redemocratização tem sido visto como de ampla renovação política, com novos nomes que chegam ao parlamento, a cada eleição.
+
+No caso da Câmara, para Miguel, isso se deve ao fato de a Casa aceitar com muita frequencia indivíduos estranhos ao campo político [@miguel_capital_2003]. Para Marenco, trata-se de uma característica de um sistema político mais 'aberto' e menos institucionalizado, que dá espaço a indivíduos sem muita experiência na vida pública e sem vínculos oligárquicos [@santos_fronteiras_1997, 6-11]. Já Leoni, Pereira e Renó atribuem a aparente renovação dos quadros parlamentares à opção dos ocupantes anteriores de não concorrer à reeleição - decisão tomada em função dos custos envolvidos em permanecer ou não em uma instituição altamente competitiva mas com pouco poder decisório [@leoni_estrategias_2003; ver também @figueiredo_executivo_1999]. Desse modo, a vacância é que permitiria a renovação.
+
+@rodrigues_partidos_2002() traz um estudo do perfil social dos legisladores, em que inclui suas profissões, histórico, escolaridade, meio social, entre outras características. O autor constatou uma associação entre partido, ideologia e origem dos eleitos. Pelo que relata, há diferença entre os partidos da direita (que seriam partidos de quadros, com candidaturas construídas individualmente e de modo independente e autônomo em relação às estruturas dos partidos), e os partidos da esquerda (que seriam mais hierarquizados, com carreiras construídas dentro do partido, vinculadas ao ativismo e cujos quadros seriam recrutados entre intelectuais, como professores e jornalistas, profissionais liberais e trabalhadores qualificados) [@rodrigues_mudancas_2006].
+
+As mudanças que se produziram até então não implicariam, contudo, afirmar uma entrada em massa das classes populares, nem de pobres, nem de trabalhadores manuais com baixa escolaridade, como observa o próprio @rodrigues_mudancas_2006(). O autor, reforçado por Costa e Codato, verifica na verdade uma queda no percentual de indivíduos com perfil mais tradicional e elitista, junto com um aumento de indivíduos de profissões de classe média [@costa_profissionalizacao_2013].
+
+A discussão sobre biografia e perfil dos parlamentares eleitos é importante. Tem suscitado importantes achados como por exemplo o diferencial de trajetória, de atuação dos parlamentares, e ainda associando-os ao seu posicionamento no espectro ideológico. Partidos políticos, afinal, fazem diferença sim.
+
+É preciso cautela, contudo, em relação a eventual aparência de renovação política que cada ciclo eleitoral possa ter. A despeito da eleição de profissionais liberais da classe média, questiono: quais grupos passaram de fato à representação. Houve de fato mudança?
+
+Em investigação sobre o perfil de parlamentares em 2015, @castro_dimensoes_2020() descobriu uma maioria ampla de deputados homens brancos de classe média-alta ou milionários (64,7%); apenas 20,1% eram pessoas não-brancas, de ambos os gêneros; 9% eram mulheres sendo 2,5% mulheres de classe baixa e 1,9% mulheres não-brancas. Já no Senado, @lemos_carreiras_2008 () encontraram a predominância de pessoas com formação superior; com mais de 50 anos; majoritariamente homens. Dados foram corroborados posteriormente por estudo de @araujo_recrutamento_2011(). Como em outros países do mundo, perpetua-se no Brasil um perfil majoritário na política. É formado, sobretudo, por homens brancos, de alta renda e escolaridade. Se há, de fato, renovação política, ela precisa ser revisitada para que se meça sua extensão e efetividade. Que grupos de fato estavam de fora e agora estão representados? Houve mudança substancial decorrente da troca de nomes?
+
+As mulheres continuam entre os grupos historicamente subrepresentados na política [ver p. ex. @avelar_mulheres_2001, @matos_mulheres_2007, @biroli_divisao_2016]. A socialização política diferenciada por gênero, que pré-determina papéis sociais exclusivos para homens e outros específicos para mulheres [@pateman_1988; @avelar_2001; @tabak_2002] estaria na raiz dessa diferenciação.
+
+Independente da causa atribuída, o diagnóstico resultante é um denominador comum: a sociedade tradicional reserva à mulher um espaço de subordinação em relação ao homem. A elas coube o cuidado para com os filhos e a casa, enquanto aos homens foram reservadas posições de autoridade. [@biroli_divisao_2016; @speck_financiamento_2012]. A sujeição feminina estaria enraizada no direito patriarcal de autoridade do homem sobre a mulher, ou via contrato matrimonial-sexual [@pateman_1988]; ou numa relação de parceria desigual [@fraser_2013], ou ainda pela separação entre o que é a esfera pública franqueada aos homens e a esfera privada, doméstica, relegada às mulheres - divisão temática que serviria para limitar os assuntos em que a mulher poderia tomar partido [@miguel_2013; @pateman_1988; @fraser_1992].
+
+Diversas barreiras existem a dificultar o acesso feminino a postos de poder: cultura patriarcal, hierarquização de gênero, instituições políticas desfavoráveis, conservadorismo do eleitorado, experiências negativas de outras mulheres na política [@matos_mulheres_2007]; descompasso entre vida privada e pública, acumulação de jornadas de trabalho, preconceito [@meneguello_alguns_2012]; carência de oportunidades pela falta de apoio dos partidos políticos, dos financiadores de campanha e do sistema eleitoral de lista aberta [@matos_mulheres_2007; @meneguello_alguns_2012; @speck_financiamento_2012, @campos_competicao_2020]; desigualdade no financiamento público de campanha [@sacchet__2013, @sacchet__2011; @sacchet__2012; @sacchet__2012]; custo mais alto para mulheres serem eleitas [@sacchet__2012a; @sacchet__2013 @speck__2014]; desigualdade no acesso a informações políticas [@renno_desigualdade_2007]; e por aí seguem os empecilhos.
+
+Negros também estão subrepresentados, tanto na política quanto na pauta de discussões sobre eleições. Quase não há estudos específicos sobre a representação política deste grupo. @campos_colour_2018() destacam-se por fazer análises conjuntas de raça/cor com outras variáveis. Os resultados remetem à interseccionalidade: 1) raça e renda - há mais nao-brancos sem patrimônio a declarar, e há mais brancos com muito patrimônio; 2) raça e nível de escolaridade - o percentual de candidatos negros decai progressivamente a partir dos grupos que completaram o ensino médio; 3) raça, gênero, nível de escolaridade e acesso a financiamento de campanha - negros angariam menos recursos que brancos, mulheres menos que os homens, e pessoas com ensino superior recebem mais do que aquelas sem essa formação. @machado_race_2019 apontam ainda outro aspecto: a resistência do eleitorado quanto a votar em negros - candidatos negros recebem menos votos que candidatos brancos.
+
+Outros aspectos das relações de gênero também estão ausentes da política. Em raro estudo sobre candidaturas LGBT, @santos_diversidade_2016() analisou perfis de candidatos e candidatas assumidamente LGBT, com ênfase em candidaturas travestis e transexuais. Conforme apurado, a quantidade de candidaturas nesse estrato populacional aumentou de 9 em 2002 a 173 em 2012. Mas, proporcionalmente falando, isso não passou de 0,03% do total de 446.582 candidaturas daquele ano. O autor deu destaque ainda para a predominância do ensino superior em candidaturas LGBT [@santos_diversidade_2016].
+
+Por falar em ensino, o grau de instrução aparece em vários estudos como um dos "filtros" para a atividade política. @campos_competicao_2020 () também apontou alta concentração de candidatos com ensino superior em ambos os sexos. Além disso, ter ensino universitário facilita o acesso a recursos de campanha para homens e mulheres, brancos e não-brancos [@campos_colour_2018].
+
+Sobre o lado desprivilegiado dos quocientes eleitorais, cabe ainda destaque aos resultados verificados por Rennó em estudo sobre assimetria informacional nas eleições de 2006: os grupos que têm acesso reduzido à informação são os mesmos que foram historicamente excluídos do acesso a diversos outros recursos no Brasil. O hiato informacional acaba, por fim, beneficiando o já privilegiado grupo de ricos, brancos e homens [@renno_desigualdade_2007].
+
+A produção bibliográfica sobre o tema é intensa. Ainda poderíamos nos alongar bastante sobre as questões envolvidas. Mas a reiteração das características aparentemente vantajosas e das desvantajosas, ao que tudo indica, será suficiente para elaborarmos algumas questões para reflexão.
+
+A desigualdade política, no Brasil, começa ao nascer: nascer branco e homem. Ter a cor de pele e o gênero 'certos' coloca esse grupo de indivíduos já em relativa vantagem comparativa em relação às demais pessoas. O quadro de desigualdade avança com o passar do tempo, à medida em que se confirma sua heterosexualidade e se acumulam anos de estudo, facilitados por acessos privilegiados a recursos de ensino - os quais poderão mais tarde se converter numa profissão valorizada e numa boa renda.
+
+Homens, brancos, heterosexuais, portanto, têm vantagens comparativas em relação a outros grupos. Segundo essa óptica, eles seriam os favoritos nas interações com o meio social já predominantemente masculino, eurocêntrico, patriarcal e heteronormativo. Os demais grupos terão de lidar com os percalços de suas características específicas e os respectivos desafios colocados pela sociedade. Galgar posições mais altas lhes custará mais do que a seus pares, preferidos do meio.
+
+O sucesso de cada um e sua posição relativa aos demais dependerá do ponto de partida familiar (redes de contatos, riqueza, profissão e formação dos pais, por exemplo), de suas capacidades e esforços pessoais, de decisões acertadas e do contexto imediato.
+
+À primeira vista, a lógica que propomos pode se conformar a dados conhecidos. Por exemplo, o fato de que as mulheres recebem, em média, salários menores que os homens, apesar de terem, em média, maior escolaridade. Eleger um homem demanda menos recursos do que eleger uma mulher. É necessário mais esforço para elas conseguirem um mesmo resultado - assim como elas precisam estudar mais e ainda são retribuídas com menores salários.
+
+Para testar as proposições, ou pelo menos uma parte delas, recorremos a dados de pesquisa de survey realizada pelo DataSenado em 2014. Precisaremos verificar empiricamente a ocorrência de vantagens reiteradas a favorecer o perfil privilegiado, por um lado, e, por outro, desvantagens impostas aos demais perfis. Se possível, com indicação das condições que os colocam na posição desvantajosa.
+
+# METODOLOGIA
+
+## Pesquisa *(survey)*
+
+O DataSenado é o instituto de pesquisa do Senado Federal brasileiro. Foi fundado em 2004 com o objetivo de sondar a opinião pública nacional como insumo para auxiliar a tomada de decisão no processo legislativo. Os dados que analisaremos são oriundos da pesquisa 'Mulheres na Política', realizada por demanda da Procuradoria da Mulher no Senado.
+
+A população pesquisada é composta de cidadãos maiores de 16 anos, residentes no Brasil e com acesso a telefone fixo.\[\NOTA:\*À época, por motivos orçamentários, as pesquisas do DataSenado ainda não abrangiam telefones móveis\]. A margem de erro geral considerada para a amostra é de três pontos percentuais para mais ou para menos. A coleta ocorreu de 12 de agosto a 03 de setembro de 2014, em 1.091 entrevistas telefônicas.
+
+A seleção dos participantes se deu por meio do método de amostragem [@ruben_datasenado_2020] aleatória estratificada em todos os estágios, com alocação de quantidades de entrevistas proporcional ao tamanho da população em cada Unidade da Federação. Definidas as quantidades de entrevistas a serem realizadas em cada estrato (UF), foram sorteados aleatoriamente números de telefones fixos extraídos do cadastro oficial da Anatel. Nesse cadastro, constam todos os números de telefone do país. Ou seja, todas as pessoas com acesso a telefone fixo tiveram probabilidade de fazer parte da amostra, que foi ponderada a posteriori segundo distribuição de sexo e idade por UF com base na PNAD \[\@ibge_pnad_2012\].
+
+Após o sorteio, os números selecionados foram dispostos em ordem aleatória e as ligações telefônicas iniciaram. A interlocução com os participantes foi feita por equipe especificamente treinada de pesquisadores. Esses, após atendimento e autorização dos participantes, realizavam as entrevistas e efetuavam a marcação de respostas em sistema de interface computacional (Computer Assisted Telephone Interviewing).
+
+O processo de discagem se repetia até que em cada UF se atingisse o número de respondentes definidos a priori no cálculo da amostra, segundo o critério de proporcionalidade. Equipe de analistas do DataSenado supervisionou a aplicação dos questionários. Foram verificadas e validadas 20% das entrevistas.
+
+## Variáveis: definições e codificação para análise
+
+Para o presente estudo, as variáveis do survey do DataSenado passaram por transformações a partir das respostas de cada indivíduo observado na amostra. Em geral, adotou-se o formato de variáveis binomiais, que assumem valor '1' para as características relevantes ao estudo.
+
+Assim, as categorias que servem de base para comparação assumem valor 0 (facilitando correspondência com a hipótese H0, de que ter dada característica não faz diferença em nossa variável resposta). Já as categorias assinaladas com valor "1" são aquelas de interesse do estudo, cuja relação com a variável resposta testaremos para saber se parece viável rejeitar H0.
+
+```{r}
+
+# # Thiago Cortez Costa
+# Script para preparação dos dados, visualização gráfica e testes de hipóteses de relação entre variáveis
+# origem dos dados: 
+# DataSenado, 2014. Pesquisa Mulheres na Política. Brasília: 
+# Metodologia: pesquisa de opinião de abrangência nacional, com
+# amostragem aleatória estratificada em 2 níveis, 1091 brasileiros e brasileiras 
+# de todos as 27 UFs, entrevistas telefônicas pessoais assistidas 
+# por computador, com método de alocação proporcional ao tamanho da população na UF
+
+# preparação da sessão
+
+```
+
+## Leitura de pacotes
+
+```{r Chamada para carregamento de pacotes}
+
+currentpacks = lapply(c("usethis",
+          "gitcreds",
+          "tidyverse",
+          "bookdown",
+          "blogdown",
+          "quarto",
+          "mice",
+          "labelled",
+          "Hmisc",
+          "prevalence",
+          "survey",
+          "rtools42",
+          "tesseract",
+          "tinytex",
+          "xelatex",
+          "revealjs",
+          "palmerpenguins",
+          "downlit",
+          "xml2",
+          "htmlwidgets",
+          "shiny",
+          "flexdashboard",
+          "citation",
+          "dplyr",
+          "dtplyr",
+          "rmarkdown",
+          "rvest",
+          "polite", 
+          "gert",
+          "gh",
+          "credentials",
+          "yaml",
+          "haven",
+          "janitor",
+          "lubridate",
+          "readxl",
+          "stringr",
+          "magrittr",
+          "srvyr",
+          "gcookbook",
+          "report",
+          "gghighlight",
+          "moderndive",
+          "skimr",
+          "infer",
+          "parsnip",
+          "ggplot2",
+          "rstatix",
+          "ggpubr"), require, character.only = T )
+
+# definir working directory
+
+setwd("~/R Projects/lista05")
+
+
+```
+
+## Importação dos dados
+
+```{r}
+
+
+polbr <- read_delim("polbr2014final.csv", delim = ";", 
+                     col_names = TRUE,
+                     na = c("","NA"," NA","NA ","NANA","NA  "," "),
+                     col_select = c("estado":"pesos"),
+                     col_types = cols(   
+                       "estado" = "f",
+                       "regiao" = "f",
+                       "interestpol" = col_factor(levels = c("nenhum",  
+                                                             "baixo",
+                                                             "medio",
+                                                             "alto"),
+                                                  ordered = TRUE,
+                                                  include_na = TRUE),
+                       "high_interest" = col_factor(levels = c("nao_alto",       
+                                                               "alto"),
+                                                    ordered = FALSE,
+                                                    include_na = TRUE),
+                       "med_interest" = col_factor( levels = c("nao_medio",
+                                                               "medio"),
+                                                         ordered = FALSE,
+                                                         include_na = TRUE),
+                       "high_med_interest" = col_factor( levels = c( "baixo_sem",
+                                                                     "alto_medio"),
+                                                         ordered = FALSE,
+                                                         include_na = TRUE),
+                       "low_interest" = col_factor(levels = c("nao_baixo",
+                                                              "baixo"),
+                                                   ordered = TRUE,
+                                                   include_na = TRUE),
+                       "low_no_interest" = col_factor(levels = c( "alto_medio",
+                                                                  "baixo_sem"),
+                                                      ordered = TRUE,
+                                                      include_na = TRUE),
+                       "sem_interest" = col_factor(levels = c("algum_interesse",
+                                                              "nenhum_interesse"),
+                                                   ordered = FALSE,
+                                                   include_na = TRUE),
+                       "votedifsex1" = col_factor(levels = c("na_misteriosos",
+                                                             "nunca_votou__indiferentes",
+                                                             "nao_faz_diferenca__mentes_abertas",
+                                                             "simhomens_engajados/as_patriarcado",
+                                                             "simmulheres_engajados/as_feministas",
+                                                             "simna_envergonhados"),
+                                                  ordered = FALSE,
+                                                  include_na = TRUE),
+                     "votedifsex2" = col_factor(levels = c("nunca_votou",
+                                                           "nao_faz_diferenca",
+                                                           "faz_diferenca"),
+                                                  ordered = FALSE,
+                                                  include_na = TRUE),
+                       "evervotefem" = col_factor(levels = c("nunca votou", 
+                                                             "sim",
+                                                             "nao")),
+                       "faltapoiofam" = col_factor(levels = c("outro",
+                                                              "falta de apoio da familia"),
+                                                   ordered = FALSE,
+                                                   include_na = TRUE),
+                       "dific_conc_h" = col_factor(levels = c("outro",
+                                                              "dificuldade de concorrer com um homem"),
+                                                   ordered = FALSE,
+                                                   include_na = TRUE),
+                       "apoio_party" = col_factor(levels = c("outro",
+                                                             "falta_apoio_party"),
+                                                  ordered = FALSE,
+                                                  include_na = TRUE),
+                       "falta_interesse" = col_factor(levels = c("outro",
+                                                                 "falta_interesse"),
+                                                      ordered = FALSE,
+                                                      include_na = TRUE),
+                       "div_sexual_trab" = col_factor(levels = c("outro",
+                                                                 "tarefas_domesticas"),
+                                                      ordered = FALSE,
+                                                      include_na = TRUE),
+                       "reasonparty" = col_factor(levels = c("na",
+                                                            "falta de apoio dos partidos politicos",
+                                                            "falta de interesse por politica",
+                                                            "dificuldade de concorrer com um homem",
+                                                            "falta de apoio da familia",
+                                                            "tempo dedicado as tarefas domesticas", 
+                                                            "outro"), 
+                                                 ordered = FALSE, 
+                                                 include_na = TRUE),
+                       "presidsymbolic" = col_factor(levels = c("nao influencia",
+                                                                "influencia"),
+                                                     ordered = FALSE,
+                                                     include_na = TRUE),
+                       "femrightsconhece" = col_factor(levels = c("nao_conhece",
+                                                                  "conhece")),
+                       "femrightsenough" = col_factor(levels = c("voce desconhece a legislacao",
+                                                                 "insuficientes",
+                                                                 "suficientes"),
+                                                      ordered = FALSE,      
+                                                      include_na = TRUE),
+                       "parityagree" = col_factor(levels = c("discorda",
+                                                             "concorda"),
+                                                  ordered = FALSE,
+                                                  include_na = TRUE), 
+                       "quotapunish" = col_factor(levels = c( "nao",
+                                                              "sim"),
+                                                  ordered = FALSE,
+                                                  include_na = TRUE), 
+                       "quotasenathird" = col_factor(levels = c("contra",
+                                                                "a favor"),
+                                                     ordered = FALSE,
+                                                     include_na = TRUE), 
+                       "haspartner"  = col_factor(levels = c("nao_tem_companh", 
+                                                             "tem_companh"),
+                                                  ordered = FALSE,
+                                                  include_na = TRUE),
+                       "housekeep" = col_factor(levels = c("outro_arranjo",
+                                                           "nao_tem_companh",
+                                                           "tem_companh_sou_responsavel",
+                                                           "tem_companh_que_eh_responsavel",
+                                                           "tem_companh_divisao_igual"),
+                                                ordered = FALSE, 
+                                                include_na = TRUE),      
+                       "haskids" = col_factor(levels = c("nao tem filhos",
+                                                         "tem filhos"),
+                                              ordered = FALSE, 
+                                              include_na = TRUE),        
+                       "haskidsin" = col_factor(levels = c("nao_tem_filhos",
+                                                           "filhos_nao_moram",
+                                                           "filhos_moram"),
+                                                ordered = FALSE,
+                                                include_na = TRUE),   
+                       "haskidsinlittle" = col_factor(levels = c("nao_tem_filhos",
+                                                                 "filhos_nao_moram",
+                                                                 "filhos_moram_crescidos",
+                                                                 "filhos_moram_pequenos"),
+                                                      ordered = FALSE, 
+                                                      include_na = TRUE),
+                       "kidstotal" = col_factor(levels = c("nao_tem_filhos",
+                                                           "filhos_nao_moram",
+                                                           "filhos_moram_crescidos",
+                                                           "filhos_moram_pequenos",
+                                                           "filhos_peq_cuida_comp",
+                                                           "filhos_peq_cuida_div",
+                                                           "filhos_peq_solo_parent",
+                                                           "filhos_peq_voce_cuida",
+                                                           "filhos_peq_outro_arranjo"),
+                                                ordered = FALSE, 
+                                                include_na = TRUE),
+                       "wannakids" = col_factor(levels = c("ja_tenho_filhos",
+                                                           "quero_ter_filhos",
+                                                           "nao_quero_ter_fihos"),
+                                                ordered = FALSE,
+                                                include_na = TRUE),        
+                       "paidjob" = col_factor(levels = c("nao",
+                                                         "sim"),
+                                              ordered = FALSE,
+                                              include_na = TRUE),        
+                       "assoc" = col_factor(levels = c("nao_sou_membro_de_assoc", 
+                                                       "sou_membro_de_assoc"),
+                                            ordered = FALSE,
+                                            include_na = TRUE),  
+                       "levelassoc" = col_factor(levels = c( "nao_sou_membro_de_assoc",
+                                                             "sou_membro_de_assocna",
+                                                             "sou_membro_de_assocbaixo",
+                                                             "sou_membro_de_assocmedio",
+                                                             "sou_membro_de_assocalto"),
+                                                 ordered = FALSE,
+                                                 include_na = TRUE),
+                       "familysupport" = col_factor(levels = c("nao_apoiaria",
+                                                               "apoiaria"),
+                                                    ordered = FALSE, 
+                                                    include_na = TRUE), 
+                       "partnersupport" = col_factor(levels = c("nao_apoiaria",
+                                                                "apoiaria",
+                                                                "nao_tem_companh"),
+                                                     ordered = FALSE, 
+                                                     include_na = TRUE), 
+                       "partnchangcitsupport" = col_factor(levels = c("nao_apoiaria",
+                                                                      "apoiaria",
+                                                                      "nao_tem_companh"),
+                                                           ordered = FALSE, 
+                                                           include_na = TRUE), 
+                       "candwchance" = col_factor(levels = c("nao",
+                                                             "sim"),
+                                                  ordered = FALSE,
+                                                  include_na = TRUE),    
+                       "thinkcand" = col_factor(levels = c("nao_nunca_pensou", 
+                                                           "sim_mas_nunca_se_candidatou",
+                                                           "sim_e_ja_se_candidatou"),
+                                                ordered = FALSE,
+                                                include_na = TRUE),     
+                       "sex" = col_factor(levels = c("masculino",
+                                                     "feminino"),
+                                          ordered = FALSE,
+                                          include_na = TRUE),            
+                       "ageinterval" = col_factor(levels = c("de 16 a 19",
+                                                             "de 20 a 29",
+                                                             "de 30 a 39",
+                                                             "de 40 a 49",
+                                                             "de 50 a 59",
+                                                             "60 anos ou mais"),
+                                                  ordered = TRUE,
+                                                  include_na = TRUE),    
+                       "educalevel" = col_factor(levels = c("ensino_fundamental",
+                                                            "ensino_medio",
+                                                            "ensino_superior"),
+                                                 ordered = TRUE,
+                                                 include_na = TRUE),
+                       "incomeinterval" = col_factor(levels = c("sem renda",
+                                                                "ate 2 sm",
+                                                              "mais de 2 a 5 sm",
+                                                              "mais de 5 a 10 sm",
+                                                                "mais de 10 sm"), 
+                                                     ordered = TRUE,
+                                                     include_na = TRUE), 
+                       "religion" = col_factor(levels = c("catolica",
+                                                          "sem religiao ou crenca",
+                                                          "outra",
+                                                          "espirita",
+                                                          "evangelica"),
+                                               ordered = FALSE,
+                                               include_na = TRUE),
+                       "pesos" = "n"))
+                       
+  
+summary(polbr)
+
+
+```
+
+## Base de dados
+
+Na leitura da base acima (polbr), os atributos, isto é, os "valores" que as variáveis categóricas podem assumir, receberam uma classificação automática do programa. Esse comportamento 'default' é referente à ordem com que os rótulos foram inseridos na programação e por via de regra usa o primeiro rótulo listado na programação como categoria de referência. Assim, os resultados são dados em comparação com aquela categoria-base inicial.
+
+Pode parecer sutil, mas a mudança na ordem pode dificultar a interpretação dos resultados. Imagine o caso de variáveis binárias, aquelas que podem assumir dois valores, como: c(sim, nao), ou c(tem, nao_tem), ou c(concordo, discordo), ou mesmo c(0,1).
+
+Por exemplo, uma variável do tipo categórica (no R chamada de 'factor'), intitulada de 'imunizacao', que poderia assumir os valores imunizado, ou nao imunizado. Na fórmula:
+
+imunizacao \<- factor( labels = c( imunizado, nao_imunizado)
+
+Com objetivo de investigar efeitos da imunização sobre a saúde do indivíduo, pode parecer intuitivo que os resultados indiquem os efeitos de estar imunizado.
+
+Mas o padrão do R é utilizar a primeira categoria listada no código como categoria de referência. Na nossa fórmula lá em cima, a primeira categoria era 'imunizado', que seria portanto a categoria de referência. Assim, os cálculos das funções e análises resultarão no efeito de não estar imunizado. Então, ao analisar os resultados, o pesquisador terá de ir contra a forma de raciocinar a questão que lhe parecia mais inteligível. Pelo contrário, para descrever o efeito de estar imunizado, que não estaria disponível, ele teria de expressar por escrito a interpretação do inverso do efeito de não estar imunizado (efeito de não(não_imunizado).
+
+Por isso, existe a possibilidade de desde o início da leitura dos dados, já definir quais categorias de cada variável deverão ser utilizadas como referência. Basta colocá-las no começo do código que descreve a variável. Como prática, adotamos iniciar com as categorias que não têm papel central na teoria que iremos analisar, deixando na 2ª posição em diante as variáveis que farão sentido para sua análise. Foi o que fizemos.
+
+```{r}
+
+## Lista de variáveis e definições
+
+names(polbr)
+
+```
+
+É importante visualizar a base de dados diretamente, bem como o resumo da importação dos dados (summary()), para garantir uma leitura correta das variáveis e evitar perda de dados. Ao fazer isso, identificamos a falha na leitura de 'polbr2', o que nos fez retornar e corrigir onde possível, sabendo que variáveis com muitos dados faltantes devem ser evitadas no modelo, para não conduzirem a conclusões enviesadas.
+
+## Detalhamento da amostra
+
+Nessa seção, segue-se visualização dos dados em análise exploratória preliminar, para identificar os tipos de variáveis e sua distribuição.
+
+A @fig_pesosamostraisdist mostra a distribuição dos pesos amostrais por região. É possível observar como a coleta de dados foi regionalizada, para incluir observações em regiões menos populosas e aumentar a eficência das estimativas.
+
+@fig_pesosamostraisdist - Distribuição dos pesos amostrais, por região (DATASENADO, 2014)
+
+```{r}
+
+#| column: screen-inset-shaded
+#| layout-nrow: 6
+#| label: fig_pesosamostraisdist
+#| fig-cap: Distribuição dos pesos amostrais, por região do Brasil
+#| fig-subcap: FONTE: CORTEZ COSTA, Thiago. 2022 
+
+
+
+ggplot(  
+  data = polbr,  
+  mapping = 
+    aes( x = regiao,                 
+         y = pesos
+         )
+  ) +
+  geom_boxplot(fill = c("light blue"), alpha = 0.80) + 
+  labs(x = "Regiões Brasileiras",
+       y = "Pesos amostrais", 
+       title = 
+         "Distribuição de pesos amostrais, por Região (2014)",
+       caption=
+         "Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") +
+  coord_flip()
+
+```
+
+```{r}
+
+polbr %>%  count(ageinterval )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = ageinterval, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Faixa etária"  , y = "Frequência relativa (%)", title = "Distribuição etária da amostra", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip() 
+
+```
+
+```{r}
+
+polbr %>%  count(apoio_party )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = apoio_party, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Apoio partidário"  , y = "Frequência relativa (%)", title = "Motivo para baixa representação feminina: falta apoio partidário", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+```
+
+```{r}
+polbr %>%  count(assoc )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = assoc, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Associativismo"  , y = "Frequência relativa (%)", title = "Associativismo: proporção de pessoas que participam de organizações civis", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+```
+
+```{r}
+polbr %>%  count(candwchance )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = candwchance, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Candidatura em caso de chance de vitóia"  , y = "Frequência relativa (%)", title = "Propensão à candidatura, caso tivesse chance de vencer", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") 
+
+```
+
+```{r}
+
+polbr %>%  count(dific_conc_h )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = dific_conc_h, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Dificuldade de concorrer com homem"  , y = "Frequência relativa (%)", title = "Motivo para baixa representação feminina: concorrência desigual", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") 
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(div_sexual_trab )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = div_sexual_trab, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Divisão sexual do trabalho"  , y = "Frequência relativa (%)", title = "Motivo para baixa representação feminina: a divisão sexual do trabalho", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") 
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(educalevel)  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = educalevel, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Nível educacional"  , y = "Frequência relativa (%)", title = "Distribuição da amostra, por nível educacional", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)")  
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(evervotefem )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = evervotefem, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Votação anterior em mulheres"  , y = "Frequência relativa (%)", title = "Já votou em mulher antes? (%)", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") 
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(falta_interesse )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = falta_interesse, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Falta de interesse"  , y = "Frequência relativa (%)", title = "Motivo para baixa representação feminina: falta de interesse", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") 
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(faltapoiofam )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = faltapoiofam, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Falta apoio da família"  , y = "Frequência relativa (%)", title = "Motivo para baixa representação feminina: falta apoio da família", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") 
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(reasonparty)  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = reasonparty, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Motivos atrobuídos"  , y = "Frequência relativa (%)", title = "Porquês da baixa representação feminina", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(familysupport )  %>%  mutate ( pct = n / sum (n))  %>%  ggplot( mapping =  aes( x = familysupport, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Família apoiaria?"  , y = "Frequência relativa (%)", title = "Apoio familiar esperado às candidaturas", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)")
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(femrightsconhece )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = femrightsconhece, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "políticas afirmativas para mulheres"  , y = "frequência relativa (%)", title = "Conhecimento da legislação sobre mais mulheres na política", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") 
+
+```
+
+```{r}
+
+
+polbr %>%  count(femrightsenough )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = femrightsenough, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "suficiência dos direitos políticos femininos"  , y = "frequência relativa (%)", title = "Nível percebido de suficiência da legislação para mais mulheres na política", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(haskids )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = haskids, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "tem filhos?"  , y = "frequência relativa (%)", title = "Distribuição da amostra, por situação parental", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)")
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(haskidsin )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = haskidsin, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Tem filhos menores de idade?"  , y = "Frequência relativa (%)", title = "Distribuição da amostra, por situação parental e menoridade dos filhos", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(haskidsinlittle )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = haskidsinlittle, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "tem filhos? menores de idade? moram com você?"  , y = "frequência relativa (%)", title = "Distribuição da amostra, por situação parental, menoridade dos filhos e residência", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(haspartner )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = haspartner, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Tem cônjuge ou companheiro(a)"  , y = "Frequência relativa (%)", title = "Distribuição da amostra, por situação conjugal", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(interestpol)  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = interestpol, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Nível de interesse político"  , y = "Frequência relativa (%)", title = "Distribuição da amostra segundo nível de interesse político declarado", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") 
+
+
+```
+
+```{r}
+
+polbr %>%  count(housekeep )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = housekeep, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Divisão sexual do trabalho"  , y = "Frequência relativa (%)", title = "Distribuição sexual do trabalho doméstico, por situação conjugal", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(incomeinterval )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = incomeinterval, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Faixa de renda"  , y = "Frequência relativa (%)", title = "Distribuição da amostra, por faixa de renda", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(kidstotal )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = kidstotal, y = pct, )) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Situação da unidade familiar"  , y = "Frequência relativa (%)", title = "Distribuição do cuidado com os filhos e da situação conjugal, por sexo do respondente e frequência na amostra", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(levelassoc )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = levelassoc, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Nível de associativismo"  , y = "Frequência relativa (%)", title = "Níveis de participação como membros de associações civis", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(low_interest )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = low_interest, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Nível de interesse político"  , y = "Frequência relativa (%)", title = "Nível de interesse político declarado baixo (%)", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(low_no_interest )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = low_no_interest, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Nível de interesse político"  , y = "Frequência relativa (%)", title = "Nível de interesse político declarado,  de alto ou médio a baixo ou nenhum (%)", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+
+
+```
+
+```{r}
+
+
+polbr  %>%  count(haspartner )  %>%  mutate ( pct = n / sum (n))  %>%  ggplot( mapping =  aes( x = haspartner, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "tem cônjuge ou companheiro(a)?"  , y = "Frequência relativa (%)", title = "Distribuição da amostra, por situação conjugal", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(paidjob )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = paidjob, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Emprego remunerado"  , y = "Frequência relativa (%)", title = "Exerce atividade profissional remunerada fora de casa?", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(parityagree)  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = parityagree, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Nível de apoio"  , y = "Frequência relativa (%)", title = "Pauta progressista: adesão às cotas paritárias", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(partnchangcitsupport )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = partnchangcitsupport, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Companheiro(a) apoiaria?"  , y = "Frequência relativa (%)", title = "Apoio esperado dos cônjuges caso a candidatura exigisse mudança de cidade ", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") 
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(partnersupport )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = partnersupport, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Apoio afetivo"  , y = "Frequência relativa (%)", title = "Apoio esperado dos cônjuges", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)")
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(presidsymbolic )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = presidsymbolic, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Influencia o voto em mais mulheres?"  , y = "Frequência relativa (%)", title = "Efeito simbólico de uma mulher eleita Presidente", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(quotapunish )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = quotapunish, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "justiçaPunição?"  , y = "Frequência relativa (%)", title = "Mudança institucional: punição aos partidos que não cumprirem as cotas", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(quotasenathird )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = quotasenathird, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Nível de apoio"  , y = "Frequência relativa (%)", title = "Mudança institucional: aplicação de cotas a 1/3 das vagas do Senado", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(regiao )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = regiao, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Região"  , y = "Frequência relativa (%)", title = "Distribuição da amostra, por região de residência", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(religion )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = religion, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Religião"  , y = "Frequência relativa (%)", title = "Distribuição da amostra, por religião ", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(sex )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = sex, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Sexo"  , y = "Frequência relativa (%)", title = "Distribuição da amostra, por sexo", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") 
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(housekeep )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = housekeep, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Divisão sexual do trabalho"  , y = "Frequência relativa (%)", title = "Divisão sexual do trabalho doméstico", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(thinkcand )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = thinkcand, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = ""  , y = "Frequência relativa (%)", title = "Já pensou seriamente em se candidatar?", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(votedifsex2 )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = votedifsex2, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "gênero do candidato interfere?"  , y = "Frequência relativa (%)", title = "Impacto do gênero na escolha do voto", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+
+
+```
+
+```{r}
+
+
+polbr %>%  count(wannakids )  %>%  mutate ( pct = n / sum (n))  %>% ggplot( mapping =  aes( x = wannakids, y = pct)) + geom_col(fill="light blue", alpha = 0.80) + labs( x = "Expectativa"  , y = "Frequência relativa (%)", title = "Pretende ter filhos no futuro?", caption = "  Fonte: CORTEZ COSTA, Thiago (2022):DATASENADO (2014)") + coord_flip()
+
+
+```
+
+```{r}
+
+#| fig-cap: Distribuição da variável 'femrightsenough'
+#| fig-subcap: Elaborado pelo autor com dados do @datasenado_2014
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(
+    x = femrightsenough
+    )) +
+  geom_bar(
+    fill = 
+      c("pink"),
+    alpha = 0.70) +
+  theme(
+    axis.text.x =
+      element_text(
+        angle = 30)) +
+  labs(
+    x = 
+      "Opinião sobre a legislação",
+    Y = 
+      "Nº de pessoas",
+    title = "Em sua opinião, as leis que garantem mais direitos para mulheres na política são: (2014)")
+```
+
+```{r}
+
+#| fig-cap: Distribuição da variável 'femrightsenough'
+#| fig-subcap: Elaborado pelo autor com dados do @datasenado_2014
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(
+    x = quotapunish
+    )) +
+  geom_bar(
+    fill = 
+      c("pink"),
+    alpha = 0.70) +
+  theme(
+    axis.text.x =
+      element_text(
+        angle = 30)) +
+  labs(
+    x = 
+      "Opinião sobre a legislação",
+    Y = 
+      "Nº de pessoas",
+    title = "Opinião sobre aplicar multas aos partidos que descumprirem as cotas: (2014)")
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes( x = housekeep
+                 )) +
+    geom_bar(fill= "light blue", alpha=0.8) +
+  labs(x = "Regiões Brasileiras",
+       Y = "Nº de pessoas",
+       title = "Distribuição da amostra, por divisão do trabalho doméstico") +
+       coord_flip()
+  
+
+```
+
+```{r}
+
+
+ggplot( 
+  data = polbr, 
+  mapping = aes( x = kidstotal
+                 )) +
+    geom_bar(fill= "light blue", alpha=0.8) +
+  labs(x = "Regiões Brasileiras",
+       Y = "Nº de pessoas",
+       title = "Distribuição da amostra, por estágio na criação dos filhos, 2014")+
+       coord_flip()
+  
+```
+
+```{r}
+
+
+ggplot( 
+  data = polbr, 
+  mapping = aes( x = paidjob, 
+                 fill = sex)) +
+    geom_bar(alpha = 0.50) +
+  labs(x = "Atividade econômica fora do domicílio",
+       Y = "Nº de pessoas",
+       title = "Distribuição da amostra, por atividade econômica remunerada fora do domicílio")
+  
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = haspartner,
+                fill = interestpol)) +
+    geom_bar(alpha=.50) +
+  labs(x = "Vive com côjuge ou companheiro(a)",
+       y = "Nº de pessoas",
+       title = "Situação conjugal interfere no Interesse em política? (2014)")
+
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = interestpol,
+                fill = haspartner)) +
+    geom_bar( alpha=.50) +
+  labs(x = "Nível de interesse em política",
+       y = "Nº de pessoas",
+       title = "Situação conjugal interfere no Interesse em política? (2014)")
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = housekeep,
+                fill = interestpol)) +
+     geom_bar(alpha=.50) +
+  labs(x = "Distribuição do trabalho doméstico",
+       y = "Nº de pessoas",
+       title = "Concentrar o trabalho doméstico interfere no interesse em política? (2014)") + coord_flip()
+
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = interestpol,
+                fill = housekeep)) +
+     geom_bar(alpha=.50) +
+  labs(x = "Nível de interesse em política",
+       y = "Nº de pessoas",
+       title = "Concentrar o trabalho doméstico interfere no interesse em política? (2014)") + coord_flip()
+
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = interestpol,
+                fill = haskids)) +
+     geom_bar(alpha=.50) +
+  labs(x = "Nível de interesse em política",
+       y = "Nº de pessoas",
+       title = "Ter filhos interfere no interesse em política?")
+
+
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = haskids,
+                fill = interestpol)) +
+     geom_bar(alpha=.50) +
+  labs(x = "tem filhos?",
+       y = "frequência absoluta",
+       title = "Ter filhos e se interessar por política (2014)")
+
+```
+
+```{r}
+
+polbr  %>%  ggplot( mapping = aes(x = haskidsin, 
+                fill = interestpol)) +
+     geom_bar(alpha=.50) +
+  labs(x = "Tem filhos morando em casa?",
+       y = "Nº de pessoas",
+       title = "Ter filhos morando em casa interfere no interesse em política?") + coord_flip()
+
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = haskidsinlittle, #filhos com que mora são menores de idade
+                fill = interestpol)) +
+     geom_bar(alpha=.50) +
+  labs(x = "Tem filhos menores de 18 anos morando em casa?",
+       y = "Nº de pessoas",
+       title = "Ter filhos crianças e adolescentes interfere no interesse em política?") + coord_flip()
+
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = kidstotal,
+                fill = interestpol)) +
+     geom_bar(alpha=.50) +
+  labs(x = "Responsabilidade pelo cuidado dos filhos",
+       y = "Nº de pessoas",
+       title = "Concentrar a responsabilidade de cuidar dos filhos interfere no interesse em política? (2014)") + coord_flip()
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = sex,
+                fill = haskidsinlittle)) +
+     geom_bar(alpha=.50) +
+  labs(x = "Sexo",
+       y = "Nº de pessoas",
+       title = "Titulo? (2014)")
+       
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = paidjob,
+                fill = interestpol)) +
+     geom_bar(alpha=.50) +
+  labs(x = "Trabalho remunerado",
+       y = "Nº de pessoas",
+       title = "Ter uma carreira fora de casa interfere no interesse em política? (2014)")
+
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = interestpol,
+                fill = paidjob)) +
+     geom_bar(alpha=.50) +
+  labs(x = "Nível de interesse em política",
+       y = "Nº de pessoas",
+       title = "Trabalha fora de casa? (2014)")
+       
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = assoc, 
+                fill = interestpol)) +
+     geom_bar(alpha=.50) +
+  labs(x = "Participativismo",
+       y = "Nº de pessoas",
+       title = "Participar de associações civis interfere no interesse em política? (2014)")
+
+```
+
+```{r}
+
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = interestpol,
+                fill = assoc)) +
+     geom_bar(alpha=.50) +
+  labs(x = "Nível de interesse em política",
+       y = "Nº de pessoas",
+       title = "Participar de associações civis interfere no interesse em política? (2014)")
+```
+
+```{r}
+
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = familysupport,
+                fill = interestpol)) +
+     geom_bar(alpha=.50) +
+  labs(x = "familia apoiaria sua candidatura?",
+       y = "Nº de pessoas",
+       title = "Interesse político e apoio familiar esperado (2014)")
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = interestpol,
+                fill = familysupport)) +
+     geom_bar(alpha=.50) +
+  labs(x = "Teria apoio da familia para se candidatar?",
+       title = "Interesse político está associado à expectativa de apoio familiar? (2014)")
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = partnersupport,
+                fill = interestpol)) +
+     geom_bar(alpha=.50) +
+  labs(x = "Cônjuge ou companheiro(a) apoiaria candidatura",
+       y = "Nº de pessoas",
+       title = "Interesse político está associado à expectativa de apoio conjugal? (2014)")
+```
+
+investigue o perfil de quem não tem parceiro, ou que está em branco. A diferença do efeito do apoio da família e do parceiro pode estar relacionado a ser mulher solteira ou não.
+
+```{r}
+
+polbr %>% group_by(haspartner, familysupport, partnersupport) %>% tally()
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = interestpol,
+                fill = candwchance)) +
+     geom_bar(alpha=.50) +
+  labs(x = "Nível de interesse em política",
+       title = "Interesse em política potencializa propensão à candidatura? (2014)")
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = candwchance,
+                fill = interestpol)) +
+  geom_bar() +
+  labs(x = "Seria candidato(a), se tivesse chance de ganhar",
+       title = "Interesse em política potencializa propensão à candidatura? (2014)")
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = thinkcand,
+                fill = interestpol)) +
+   geom_bar(alpha=.50) +
+  labs(x = "Concretização de campanha",
+       title = "Interesse em política influencia a decisão de se candidatar? (2014)") + coord_flip()
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = interestpol,
+                fill = thinkcand)) +
+   geom_bar(alpha=.50) +
+  labs(x = "Nível de interesse em política",
+       title = "Interesse em política influencia a decisão de se candidatar? (2014)")
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = ageinterval,
+                fill = sex)) +
+     geom_bar(alpha=.50)+
+  labs(x = "Faixa etária",
+       title = "Distribuição da amostra, por idade e sexo (2014)") + coord_flip()
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = ageinterval,
+                fill = interestpol)) +
+     geom_bar(alpha=.50) +
+   labs(x = "Faixa etária",
+        title = "Distribuição da amostra, por idade e interesse em política (2014)") + coord_flip()
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = interestpol,
+                fill = ageinterval)) +
+     geom_bar(alpha=.50) +
+ labs(x = "Interesse em política",
+      title = "Distribuição da amostra, por interesse em política e faixa etária (2014)")
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = incomeinterval,
+                fill = sex)) +
+     geom_bar(alpha=.50) +
+ labs(x = "Faixa de renda",
+      title = "Distribuição da amostra, por renda e sexo (2014)")
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = incomeinterval,
+                fill = educalevel)) +
+     geom_bar(alpha=.50) +
+ labs(x = "faixa de renda",
+      title = "Distribuição da amostra por renda e nível educacional (2014)") + coord_flip()
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = educalevel,
+                fill = interestpol)) +
+     geom_bar(alpha=.50) +
+ labs(x = "Faixa etária",
+      title = "Distribuição da amostra, nível educacional e interesse em política (2014)") + coord_flip()
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = interestpol,
+                fill = educalevel)) +
+     geom_bar(alpha=.50) +
+ labs(x = "Interesse em Política",
+      title = "Distribuição da amostra, por interesse em política e nível educacional (2014)")
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = religion,
+                fill = interestpol)) +
+  geom_bar(alpha=.50) + 
+  labs(x = "Religião",
+      title = "Distribuição da amostra, por religião e interesse em política (2014)") + coord_flip()
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = haspartner)) +
+    geom_bar() +
+ labs(x = "Situação conjugal",
+      title = "Distribuição de Frequências na amostra, por situação conjugal (2014)")
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = haspartner, # casado(a) ou vive com companheiro
+                fill = sex
+                )) +
+     geom_bar(alpha=.50) +
+ labs(x = "Tem esposo(a) ou companheiro(a)",
+      title = "Distribuição da amostra por situação conjugal e sexo (2014)")
+```
+
+```{r}
+ggplot( 
+  data = polbr, 
+  mapping = aes(x = sex, 
+                fill = haspartner
+                )) + # casado(a) ou vive com companheiro(a)
+ geom_bar(alpha=.50) +
+ labs(x = "Sexo",
+       title = "Distribuição da amostra por sexo e situação conjugal (2014)")
+```
+
+```{r}
+ggplot( 
+  data = polbr, 
+  mapping = aes( x = interestpol,
+                 fill = sex #,
+                 )#weights = pesos) #weights = (estudar depois sobre estética dos pesos, será estimação usando pesos amostrais, já aplicada aos gráficos?)
+  #insere mais uma informação no gráfico: plota uma variável categórica nas barras
+) +
+   geom_bar(alpha=.50) +
+ labs(x = "Interesse em política",
+      title = "Distribuição da amostra, por interesse em política e sexo (2014)")
+
+
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes( 
+    x = sex,
+    fill = interestpol #,
+    ) #weights = pesos) #weights = (estudar depois sobre estética dos pesos, será estimação usando pesos amostrais, já aplicada aos gráficos?)
+  #insere mais uma informação no gráfico: plota uma variável categórica nas barras
+) +
+ geom_bar(alpha=.50) +
+labs(x = "Sexo",
+     y = "Nº de pessoas",
+     title = "Distribuição da amostra, por sexo e interesse em política (2014)")
+
+```
+
+```{r}
+
+ ggplot( 
+  data = polbr, 
+  mapping = aes(
+    x = educalevel,
+    fill = interestpol #  #insere mais uma informação no gráfico: plota uma variável categórica nas barras
+    #weights = (estudar depois sobre estética dos pesos, será estimação usando pesos amostrais, já aplicada aos gráficos?)
+)) +
+geom_bar(position = "dodge") +#coloca as barras ao lado umas das outras, ao invés de empilhadas ATENÇÂO: NUNCA usar o dodge sozinho, usar sempre position = positcion_dodge( preserve = "single") == porque apenas "dodge" distorce a largura das barras, que ficam irregulares.
+ labs(x = "Nível educacional",
+      y = "Nº de pessoas",
+      title = "Distribuição da amostra, por nível educacional e interesse em política (2014)") + coord_flip()
+
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(
+    y = ageinterval,
+    fill = interestpol #  #insere mais uma informação no gráfico: plota uma variável categórica nas barras
+    #weights = (estudar depois sobre estética dos pesos, será estimação usando pesos amostrais, já aplicada aos gráficos?)
+)) +
+  geom_bar(position = "dodge", alpha=.50)
+  labs(y = "Faixa etária",
+       x = "Nº de pessoas",
+       title = "Distribuição da amostra, por faixa etária e interesse em política (2014)") 
+
+```
+
+```{r}
+
+ ggplot( 
+  data = polbr, 
+  mapping = aes(
+      x = educalevel,
+      fill = interestpol)
+  ) +
+  geom_bar() +
+  facet_wrap(~ interestpol, ncol = 1) +#coloca as barras ao lado umas das outras, ao invés de empilhadas ATENÇÂO: NUNCA usar o dodge sozinho, usar sempre position = positcion_dodge( preserve = "single") == porque apenas "dodge" distorce a largura das barras, que ficam irregulares.
+ labs(x = "Nível educacional",
+      y = "Nº de pessoas",
+      title = "Distribuição da amostra, por nível educacional e interesse em política (2014)")
+
+```
+
+```{r}
+
+ ggplot( 
+  data = polbr, 
+  mapping = aes(
+      x = ageinterval,
+      fill = interestpol)
+  ) +
+  geom_bar() +
+  facet_wrap(~ interestpol, ncol = 1) +#coloca as barras ao lado umas das outras, ao invés de empilhadas ATENÇÂO: NUNCA usar o dodge sozinho, usar sempre position = positcion_dodge( preserve = "single") == porque apenas "dodge" distorce a largura das barras, que ficam irregulares.
+ labs(x = "Faixa etária",
+      y = "Nº de pessoas",
+      title = "Distribuição da amostra, por idade e interesse em política (2014)")
+
+```
+
+```{r}
+
+ ggplot( 
+  data = polbr, 
+  mapping = aes(
+      x = incomeinterval,
+      fill = interestpol)
+  ) +
+  geom_bar() +
+  facet_wrap(~ interestpol, ncol = 1) +#coloca as barras ao lado umas das outras, ao invés de empilhadas ATENÇÂO: NUNCA usar o dodge sozinho, usar sempre position = positcion_dodge( preserve = "single") == porque apenas "dodge" distorce a largura das barras, que ficam irregulares.
+ labs(x = "Faixa de renda",
+      y = "Nº de pessoas",
+      title = "Distribuição da amostra por renda e interesse em política (2014)")
+
+```
+
+```{r}
+
+ ggplot( 
+  data = polbr, 
+  mapping = aes(
+      x = religion,
+      fill = interestpol)
+  ) +
+  geom_bar() +
+  facet_wrap(~ interestpol, ncol = 1) +
+ labs(x = "Religião",
+      y = "Nº de pessoas",
+      title = "Distribuição da amostra, por religião e interesse em política (2014)")
+```
+
+```{r}
+
+ ggplot( 
+  data = polbr, 
+  mapping = aes(
+      y = religion,
+      fill = interestpol)
+  ) +
+   geom_bar()+
+   labs(y = "religião",
+        x = "Nº de pessoas",
+       title = "Distribuição da amostra, por religião e interesse em política (2014)")
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(
+    x = interestpol,
+    fill = educalevel #  #insere mais uma informação no gráfico: plota uma variável categórica nas barras
+    #weights = (estudar depois sobre estética dos pesos, será estimação usando pesos amostrais, já aplicada aos gráficos?)
+    )
+  ) +
+  geom_bar(
+    position = position_dodge( 
+      preserve = "single")) +
+ labs(x = "Interesse em política",
+      y = "Nº de pessoas",
+      title = "Distribuição da amostra, por interesse em política e nível educacional (2014)")
+
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(
+    x = educalevel,
+    fill = interestpol #  #insere mais uma informação no gráfico: plota uma variável categórica nas barras
+    #weights = (estudar depois sobre estética dos pesos, será estimação usando pesos amostrais, já aplicada aos gráficos?)
+    )
+  ) +
+  geom_bar() +
+ labs(x = "Nível educacional",
+      y = "Nº de pessoas",
+      title = "Distribuição da amostra por nível educacional e interesse em política (2014)")
+
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(
+    x = incomeinterval #  #insere mais uma informação no gráfico: plota uma variável categórica nas barras
+    #weights = (estudar depois sobre estética dos pesos, será estimação usando pesos amostrais, já aplicada aos gráficos?)
+    )
+  ) +
+  geom_bar(
+    position = position_dodge( 
+      preserve = "single")) +
+ labs(x = "Faixa de renda",
+      y = "Nº de pessoas",
+      title = "Distribuição da amostra, por   e sexo (2014)")
+
+
+
+```
+
+```{r}
+
+ggplot( 
+  data = polbr, 
+  mapping = aes(
+    x = interestpol,
+    fill = incomeinterval #  #insere mais uma informação no gráfico: plota uma variável categórica nas barras
+    #weights = (estudar depois sobre estética dos pesos, será estimação usando pesos amostrais, já aplicada aos gráficos?)
+    )
+  ) +
+  geom_bar(
+    position = position_dodge( 
+      preserve = "single")) +
+ labs(x = "Interesse político",
+      y = "Nº de pessoas",
+      title = "Interesse político e renda", 
+      #tag = "Frequência",
+      caption = "Fonte : CORTEZ, Thiago.",
+      subtitle = "(2014)",
+      )
+
+
+
+```
+
+# TESTE DE HIPÓTESE, JUSTIFICATIVA E ANÁLISE
+
+## Sobre gênero e interesse político
+
+Os diferenciais de comportamento de homens e mulheres são de particular interesse para estudos de representação política feminina. Existe a expectativa teórica de que a persistência de certos aspectos culturais ainda afasta a mulher da atividade política - fatores como a segregação de papéis sociais por gênero e o predomínio de relações de poder machistas.
+
+Nessa linha de raciocínio, devido à sua socialização diferenciada, as mulheres acabariam desenvolvendo menos interesse em política que os homens. Assim, tomando como variável de pesquisa o nível de interesse declarado em política, podemos formular as seguintes hipóteses:
+
+*H0: Gênero não interfere no interesse por política*
+
+*H1: Indivíduos do gênero homem têm mais interesse em política do que as mulheres*
+
+A hipótese nula - de que a política não desperta interesse diferenciado por sexo - requer que a ocorrência de homens e de mulheres em cada nível de interesse político pesquisado sejam similares à proporção com que homens e mulheres ocorrem na amostra.
+
+Em outras palavras, se não há diferença por sexo, então a proporção de homens dentro de cada categoria estudada deve ser equivalente à sua proporção na amostra. O mesmo vale para mulheres. Na proporção em que as mulheres sejam maioria na amostra, elas também serão dentro de cada categoria de interesse, na mesma proporção.
+
+Por outro lado, a diferença da proporção de homens ou mulheres em dado nível de interesse em relação à sua proporção na amostra significaria uma concentração variada com base no gênero. Para verificar tais possibilidades, utilizou-se um teste específico que procura medir a associação entre duas variáveis categóricas e a significância estatística dessa associação.
+
+## Teste de McNemar
+
+O teste de McNemar é adequado ao objetivo de verificar a relação entre as duas variáveis de interesse por possuir três vantagens específicas: 1) medir a associação entre duas variáveis categóricas; 2) levar em consideração probabilidades de ocorrências diferenciadas dos eventos analisados; 3) permitir comparar a ocorrência dos eventos estudados em relação aos totais marginais. Ou seja, comparar as proporções observadas com as probabilidades marginais.
+
+Assim, podemos traduzir nossa hipótese nula como:
+
+Prob(interesse alto \| mulher) = Prob(interesse alto \| homem)
+
+"A probabilidade de ter interesse alto, em se tratando de uma mulher, é igual à probabilidade de ter interesse alto, em se tratando de um homem".
+
+E a hipótese alternativa, seria:
+
+Prob(interesse alto \| mulher) != Prob(interesse alto \|homem)
+
+"A probabilidade de ter interesse alto, se for mulher, é diferente da probabilidade de ter interesse alto, se for homem".
+
+```{r}
+
+##Especificando o formato da tabela de contingência, que contém as variáveis 'sex' e 'high_interest'
+
+tblmcnemartest <- xtabs(~ sex + high_interest, data = polbr)
+
+##Visualização da tabela
+
+print(tblmcnemartest)
+```
+
+```{r}
+##Aplicação do teste de McNemar
+
+mcnemar.test(tblmcnemartest)
+
+
+
+```
+
+O teste retornou um p-valor \< 0,05, indicando portanto que há diferença significativa estatisticamente entre a probabilidade a ocorrência de interesse alto por política entre homens e mulheres. Em outras palavras, os dados indicam a possibilidade de rejeitar a hipótese nula, em favor da hipótese alternativa.
+
+## Poder explicativo
+
+```{r}
+
+cramer_v(tblmcnemartest)
+
+```
+
+Pela medida V de Cramer, calcula-se que cerca de 18% da variação do interesse político alto possa ser explicada pelo sexo dos indivíduos pesquisados.
+
+O teste, no entanto, é limitado no sentido de que só possibilita verificar a associação entre duas variáveis por vez, cada uma contendo duas categorias internas.
+
+Avançamos um pouco mais na direção de compreender o efeito das demais variáveis. Para isso, utilizamos testes de regressão linear generalizada, do tipo logística (distribuição binomial).
+
+As análises decorrentes não são conclusivas ainda, pois há o que aperfeiçoar nos modelos resultantes. No entanto, julgamos serem já resultados relevantes, por apontarem caminhos por onde conduzir a investigação.
+
+Depois de tentar realizar o método OLS para estimação do modelo e seleção de variáveis, sem sucesso, retornamos à estratégia de selecionar as variáveis de modo orientado pela teoria, e que acabaram nos levando ao modelo 15, que teve o valor explicativo maior dentre os modelos analisados nessa estratégia - mais manual e subjetiva.
+
+```{r, error=TRUE}
+
+binomial2.15 <-   glm(
+    formula = "high_interest ~ (sex * haskids) + haspartner + incomeinterval + educalevel + assoc + paidjob + religion + candwchance +  regiao + thinkcand",
+    family = "binomial",
+    data = polbr, na.action = na.omit)
+
+```
+
+```{r, error=TRUE}
+
+summary(binomial2.15)
+
+```
+
+```{r, error = TRUE}
+report(binomial2.15) 
+
+# Poder explicativo moderado: Tjur's R2 = 0.17
+
+```
+
+É com esse modelo, portanto, que finalizo esse trabalho, sabendo, porém que ainda há o que aperfeiçoar.
+
+Pelo modelo, há razão suficiente para crer que o alto interesse em política é influenciado por variáveis como ser mulher, ter filhos, a região onde mora - estas com efeito significativo estatisticamente e negativo em relação à variável dependente. Já variáveis como renda, nível educacional, e a propensão a se candidatar caso achassem que teriam chance, são também significativas estatisticamente na explicação da ocorrência de interesse alto por política. Porém, estas ultimas variáveis guardam relação positiva com àquela variável explicativa. Isso significa que nos casos em que estas crescem, aquela outra também cresce.
+
+A evolução desta pesquisa deverá incluir aperfeiçoamentos técnicos em relação ao ajuste do modelo, à seleção de variáveis, à verificação da qualidade do ajuste e dos pressupostos. Também deverá incluir um detalhamento melhor das relações esperadas entre as variáveis analisadas, com fundamentação teórica e correlacionada à discussão iniciada na revisão bibliográfica - à qual não foi possível ainda retomar e reavaliar frente aos resultados dos modelos. Além disso, os gráficos estão dispostos de forma que não há uma sequência lógica entre eles, o que pode ser melhorado ainda mais se for possível ir vinculando-os à discussão bibliográfica - pois as variáveis ali representadas são discutidas pelas referências citadas.
+
+# CONCLUSÕES E APONTAMENTOS PARA O FUTURO
+
+Os resultados se ajustam melhor às teses feministas do que àquelas abordagens fundadas na cultura política ou nas distinções de classe social características do marxismo, por exemplo. Primeiro, porque os dados apontam de forma contundente para a clivagem de gênero na produção da alienação política. Existe um comportamento de "auto"-exclusão política que é mais agudo entre as mulheres. Segundo, porque para o conjunto de dados analisados, a clivagem de gênero se mostra mais estatisticamente relevante do que aquela imposta pela pobreza e da outra imposta pela escolaridade - que na óptica da cultura política teria potencial para reverter eventual baixa sofisticação política. Considerando o grupo das mulheres de forma agregada, a política se apresenta como campo mais hermético à sua participação e engajamento do que o é para as pessoas oriundas de classes baixas ou àquelas com pouca escolaridade. Ser do sexo feminino tem um peso maior na alienação política do que a pobreza e a falta do ensino, por isso se constitui como fonte mais grave de clivagem política e social. Duas ressalvas são importantes. Primeiro, é a de que ser homem não elimina o peso que baixa renda e baixa escolaridade têm. Estas características são também para eles importantes fatores de alienação. Segundo, ser mulher não implica necessaria e automaticamente na exclusão política. No caso delas, porém, ser mulher, pobre e sem escolaridade tem um efeito extra, pois essas características se somam e interagem de modo a agravar ainda mais a sua situação. O modelo explicativo dos dados é coerente com o conceito da estrutura familiar patriarcal. Observa-se que ter filhos sob sua responsabilidade, sejam eles pequenos ou já maiores de idade, tem um impacto importante e negativo sobre a disponibilidade da mulher para a atividade política - o que não acontece para os homens que têm filho em casa. As evidências apontam, portanto, a divisão sexual do trabalho, materializada na separação de papéis tradicionais por gênero - o cuidado dos filhos pesa mais sobre as mulheres do que os homens. No limite da natureza dos dados analisados e do contexto específico a que se referem, conclui-se pela relevância do argumento feminista na explicação das atitudes políticas. Desde a base do eleitorado o gênero se impõe como barreira à política.
+
+# REFERÊNCIAS BIBLIOGRÁFICAS
+
+::: {#refs}
+:::
+
+# ANEXOS
+
+1)  tentei realizar uma regressão OLS, como ferramenta para seleção das variáveis para compor o modelo.
+
+install.packages("olsrr") library(olsrr) ?olsrr() summary(fithigh)
+
+abaixo, especifiquei o modelo completo, com todas as variáveis possíveis.
+
+fithigh \<- lm(data = polbr2, formula = "scorepol \~ votedifsex1 + evervotefem + reasonparty + presidsymbolic + femrightsconhece + femrightsenough + parityagree + quotapunish + quotasenathird + housekeep + kidstotal + familysupport + partnersupport + partnchangcitsupport + wannakids + paidjob + assoc + levelassoc + sex + ageinterval + educalevel + incomeinterval + religion", weights = pesos, na.action = na.exclude)
+
+ols_step_all_possible(fithigh)
+
+De início, o algoritmo ficou em loop interminável, com mensagem de erro: 'o objeto maior não é múltiplo do menor' - a qual era repetida indefinidamente.
+
+Como o loop se alongou por mais de uma noite de trabalho, encerrei o programa.
+
+Os modelos abaixo foram de uma tentativa manual anterior, em que explorei as relações de variáveis ndependentes com a variável de interesse por política aos pares.
+
+fit1high_sex \<- glm( data = polbr2, formula = "high_interest \~ sex", family = "binomial", weights = pesos, na.action = na.omit)
+
+summary(fit1highsex)
+
+fithigh2 \<- glm( data = polbr2, formula = " high_interest \~ evervotefem ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh3 \<- glm( data = polbr2, formula = " high_interest \~ faltapoiofam ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh4 \<- glm( data = polbr2, formula = " high_interest \~ dific_conc_h ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh5 \<- glm( data = polbr2, formula = " high_interest \~ apoio_party ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh6 \<- glm( data = polbr2, formula = " high_interest \~ falta_interesse ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh7 \<- glm( data = polbr2, formula = " high_interest \~ div_sexual_trab ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh8 \<- glm( data = polbr2, formula = " high_interest \~ reasonparty ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh9 \<- glm( data = polbr2, formula = " high_interest \~ presidsymbolic ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh10 \<- glm( data = polbr2, formula = " high_interest \~ femrightsconhece ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh11 \<- glm( data = polbr2, formula = " high_interest \~ femrightsenough ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh12 \<- glm( data = polbr2, formula = " high_interest \~ parityagree ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh13 \<- glm( data = polbr2, formula = " high_interest \~ quotapunish ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh14 \<- glm( data = polbr2, formula = " high_interest \~ quotasenathird ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh15 \<- glm( data = polbr2, formula = " high_interest \~ haspartner ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh16 \<- glm( data = polbr2, formula = " high_interest \~ housekeep ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh17 \<- glm( data = polbr2, formula = " high_interest \~ haskids ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh18 \<- glm( data = polbr2, formula = " high_interest \~ haskidsin ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh19 \<- glm( data = polbr2, formula = " high_interest \~ haskidsinlittle ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh20 \<- glm( data = polbr2, formula = " high_interest \~ kidscare ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh21 \<- glm( data = polbr2, formula = " high_interest \~ kidstotal ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh22 \<- glm( data = polbr2, formula = " high_interest \~ wannakids ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh23 \<- glm( data = polbr2, formula = " high_interest \~ paidjob ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh24 \<- glm( data = polbr2, formula = " high_interest \~ assoc ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh25 \<- glm( data = polbr2, formula = " high_interest \~ levelassoc ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh26 \<- glm( data = polbr2, formula = " high_interest \~ familysupport ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh27 \<- glm( data = polbr2, formula = " high_interest \~ partnersupport ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh28 \<- glm( data = polbr2, formula = " high_interest \~ partnchangcitsupport ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh29 \<- glm( data = polbr2, formula = " high_interest \~ candwchance ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh30 \<- glm( data = polbr2, formula = " high_interest \~ thinkcand ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh31 \<- glm( data = polbr2, formula = " high_interest \~ sex ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh32 \<- glm( data = polbr2, formula = " high_interest \~ ageinterval ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh33 \<- glm( data = polbr2, formula = " high_interest \~ educalevel ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh34 \<- glm( data = polbr2, formula = " high_interest \~ incomeinterval ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh35 \<- glm( data = polbr2, formula = " high_interest \~ religion ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fithigh36 \<- glm( data = polbr2, formula = " high_interest \~ tem_email ", family ="binomial", weights = pesos, na.action = na.omit)
+
+fit1high_medsex \<- glm( data = polbr2, formula = "high_med_interest \~ sex", family = "binomial", weights = pesos, na.action = na.omit)
+
+summary(fit1high_medsex)
+
+fit1medsex \<- glm( data = polbr2, formula = "med_interest \~ sex", family = "binomial", weights = pesos, na.action = na.omit)
+
+summary(fit1medsex)
+
+fit1lowsex \<- glm( data = polbr2, formula = "low_interest \~ sex", family = "binomial", weights = pesos, na.action = na.omit)
+
+fit1lowtonosex \<- glm( data = polbr2, formula = "low_no_interest \~ sex", family = "binomial", weights = pesos, na.action = na.omit)
+
+fit1nosex \<- glm( data = polbr2, formula = "sem_interest \~ sex", family = "binomial", weights = pesos, na.action = na.omit)
+
+summary(fit1nosex)
+
+summary(fit1nosex)
+
+summary( fithigh1 ) summary( fithigh2 ) summary( fithigh3 ) summary( fithigh4 ) summary( fithigh5 ) summary( fithigh6 ) summary( fithigh7 ) summary( fithigh8 ) summary( fithigh9 ) summary( fithigh10 ) summary( fithigh11 ) summary( fithigh12 ) summary( fithigh13 ) summary( fithigh14 ) summary( fithigh15 ) summary( fithigh16 ) summary( fithigh17 ) summary( fithigh18 ) summary( fithigh19 ) summary( fithigh20 ) summary( fithigh21 ) summary( fithigh22 ) summary( fithigh23 ) summary( fithigh24 ) summary( fithigh25 ) summary( fithigh26 ) summary( fithigh27 ) summary( fithigh28 ) summary( fithigh29 ) summary( fithigh30 ) summary( fithigh31 ) summary( fithigh32 ) summary( fithigh33 ) summary( fithigh34 ) summary( fithigh35 ) summary( fithigh36 )
+
+Os resultados foram interessantes, mas parecem ter sido acometidos de erro de especificação. A suspeita decorre do fato de que simplismente todas as variáveis testadas se apresentaram estatisticamente significativas para explicar o alto interesse em política, quando pareadas de duas em duas.
+
+Nenhum dos modelos com apenas uma variável explicativa (fithigh1 a fithigh36) apontou com clareza quais variáveis deveriam ir-se adicionando, nem permitiram fazer a seleção de variáveis que deveriam ser cortadas, com base no critério no p-valor.
+
+No princípio de tudo, também tentei fazer imputação de resultados faltantes via 1mice + max. Obtive sucesso mas não tinha conhecimento suficiente para avaliar a qualidade dos dados imputados.
+
+Assim, segui a estratégia que já vinha se estruturando ao longo do trabalho, que era a de guiar a construção do modelo a partir de orientações teóricas - e de cortá-las de acordo com sua performance.
+
+binomial2.0 \<- glm( formula = "high_interest \~ sex + haspartner + religion + incomeinterval + educalevel + ageinterval + candwchance + partnersupport + familysupport + assoc + paidjob + haskids + votedifsex1 + regiao", family = "binomial", data = polbr2, na.action = na.omit) skim(binomial2.0) glimpse(binomial2.0) summary(binomial2.0)
+
+report(binomial2.0)
+
+Modelo 2.0 apresentou poder explicativo moderado T-jur (14%). As variáveis independentes foram sendo retiradas pari-passo, tendo seu p-valor verificado para então decidir pela sua permanência ou não no modelo.
+
+binomial3.0 \<- glm( formula = "high_interest \~ sex + incomeinterval + educalevel + candwchance + regiao + haskids", family = "binomial", data = polbr2, na.action = na.omit)
+
+summary(binomial3.0) report(binomial3.0)
+
+binomial3.1 \<- glm( formula = "high_interest \~ (sex \* educalevel) + incomeinterval + educalevel + candwchance + regiao + haskids", family = "binomial", data = polbr, na.action = na.omit)
+
+summary(binomial3.1)
+
+binomial2.151 \<- glm( formula = "high_interest \~ + ( \* haskids) + ( \* incomeinterval) + temconjugemaseresp + incomeinterval + educalevel + assoc + paidjob + haskids + religion + candwchance + regiao", family = "binomial", data = polbr, na.action = na.omit) report(binomial2.151) \# poder explicativo: Tjur's R2 = 0.15 summary(binomial2.151)
+
+binomial2.152 \<- glm( formula = "high_interest \~ + ( \* haskids) + ( \* incomeinterval) + ( \* educalevel) + temconjugemaseresp + incomeinterval + educalevel + assoc + paidjob + haskids + religion + candwchance + regiao", family = "binomial", data = polbr, na.action = na.omit) report(binomial2.152) \# poder explicativo: Tjur's R2 = 0.15 summary(binomial2.152)
+
+binomial4.0 \<- glm( formula = "high_interest_bin \~ sex + (sex \* religion) + temconjugemaseresp + incomeinterval + educalevel + assoc + paidjob + haskids + religion + candwchance + regiao", family = "binomial", data = polbr2, na.action = na.omit) report(binomial4.0)
+
+binomial2.01 \<- glm( formula = "high_interest \~ sex + casado_ou_uniao + religion + incomeinterval + educalevel + candwchance + assoc + paidjob + haskids + regiao", family = "binomial", data = polbr, na.action = na.omit) report(binomial2.01) summary(binomial2.01)
+
+binomial2.02 \<- glm( formula = "high_interest \~ sex + temconjugemaseresp + religion + incomeinterval + educalevel + candwchance + assoc + paidjob + haskids + regiao", family = "binomial", data = polbr, na.action = na.omit) report(binomial2.02) summary(binomial2.02)
+
+OBS: Procedimentos modelo 2.010 em diante - adicionei variáveis sobre filhos
+
+binomial2.010 \<- glm( formula = "high_interest \~ sex + casado_ou_uniao + religion + incomeinterval + educalevel + candwchance + assoc + paidjob + regiao + haskidsinlittle + haskidsinbig + kidsout + nokids", family = "binomial", data = polbr, na.action = na.omit) report(binomial2.010)
+
+binomial2.011 \<- glm( formula = "high_interest \~ sex + casado_ou_uniao + religion + incomeinterval + educalevel + candwchance + assoc + paidjob + regiao + kidsin + kidsout + nokids", family = "binomial", data = polbr, na.action = na.omit) report(binomial2.011)
+
+binomial2.012 \<- glm( formula = "high_interest \~ sex + casado_ou_uniao + religion + incomeinterval + educalevel + candwchance + assoc + paidjob + regiao + haskids", family = "binomial", data = polbr, na.action = na.omit) report(binomial2.012)
+
+Procedimentos dos modelos binomial2.010 a 2.19
+
+nos modelos binomial2.010 a .012, as variáveis sobre filhos utilizadas não surtiram efeito considerável sobre o interesse em política. A variável só apresenta efeito significativo estatisticamente se inserida no modelo como variável multinomial. Pelo que nao foi possível estimar o efeito particular de ter filhos pequenos morando em casa, visto que é tomada pelo programa como categoria basal para estimação dos coeficientes.
+
+OBS: adicionei variável "ter filhos pequenos que moram com você" haslittlekids
+
+binomial2.020 \<- glm( formula = "high_interest \~ sex + temconjugemaseresp + religion + incomeinterval + educalevel + candwchance + assoc + paidjob + regiao + haskidsinlittle", family = "binomial", data = polbr, na.action = na.omit) report(binomial2.020)
+
+Agora considerar interações entre as variáveis nos modelos, sobretudo com relação à variável sexo ou "sex".
+
+binomial2.1 \<- glm( formula = "high_interest \~ sex + (sex \* temconjugemaseresp) + haspartner + incomeinterval + educalevel + assoc + paidjob + haskids + religion + candwchance + regiao", family = "binomial", data = polbr, na.action = na.omit) report(binomial2.1) summary(binomial2.1)
+
+binomial2.11 \<- glm( formula = "high_interest \~ sex + (sex \* incomeinterval) + haspartner + incomeinterval + educalevel + assoc + paidjob + haskids + religion + candwchance + regiao", family = "binomial", data = polbr, na.action = na.omit)
+
+binomial2.12 \<- glm( formula = "high_interest \~ sex + (sex \* educalevel) + haspartner + incomeinterval + educalevel + assoc + paidjob + haskids + religion + candwchance + regiao", family = "binomial", data = polbr, na.action = na.omit)
+
+binomial2.13 \<- glm( formula = "high_interest \~ sex + (sex \* assoc) + haspartner + incomeinterval + educalevel + assoc + paidjob + haskids + religion + candwchance + regiao", family = "binomial", data = polbr, na.action = na.omit)
+
+binomial2.14 \<- glm( formula = "high_interest \~ sex + (sex \* paidjob) + haspartner + incomeinterval + educalevel + assoc + paidjob + haskids + religion + candwchance + regiao", family = "binomial", data = polbr, na.action = na.omit)
+
+binomial2.15 \<- glm( formula = "high_interest \~ sex + (sex \* haskids) + haspartner + incomeinterval + educalevel + assoc + paidjob + haskids + religion + candwchance + regiao", family = "binomial", data = polbr, na.action = na.omit)
+
+binomial2.16 \<- glm( formula = "high_interest \~ sex + (sex \* religion) + haspartner + incomeinterval + educalevel + assoc + paidjob + haskids + religion + candwchance + regiao", family = "binomial", data = polbr, na.action = na.omit)
+
+binomial2.17 \<- glm( formula = "high_interest \~ sex + (sex \* candwchance) + temconjugemaseresp + incomeinterval + educalevel + assoc + paidjob + haskids + religion + candwchance + regiao", family = "binomial", data = polbr, na.action = na.omit)
+
+binomial2.18 \<- glm( formula = "high_interest \~ sex + (sex \* regiao) + temconjugemaseresp + incomeinterval + educalevel + assoc + paidjob + haskids + religion + candwchance + regiao", family = "binomial", data = polbr, na.action = na.omit)
+
+report(c(binomial2.11, binomial2.12, binomial2.13, binomial2.14, binomial2.15, binomial2.16, binomial2.17, binomial2.18)) report(binomial2.11) report(binomial2.12) report(binomial2.13) report(binomial2.14)
+
+report(binomial2.15)
+
+report(binomial2.16) report(binomial2.17) report(binomial2.18)
+
+Procedimentos modelo 2.19 a 2.5
+
+inseri algumas variáveis importantes teoricamente, para averiguar eventual interação com 'sex' já que sozinhas tais variáveis não haviam surtido efeito significativo
+
+binomial2.19 \<- glm( formula = "high_interest \~ sex + (sex \* familysupport) + familysupport + temconjugemaseresp + incomeinterval + educalevel + assoc + paidjob + haskids + religion + candwchance + regiao", family = "binomial", data = polbr, na.action = na.omit) report(binomial2.19)
+
+binomial2.110 \<- glm( formula = "high_interest \~ sex + (sex \* partnersupport) + partnersupport + temconjugemaseresp + incomeinterval + educalevel + assoc + paidjob + haskids + religion + candwchance + regiao", family = "binomial", data = polbr, na.action = na.omit) report(binomial2.110)
+
+tibble_partnersupport \<- polbr %\>% group_by(partnersupport) %\>% summarise(count=n())
+
+binomial2.2 \<- glm( formula = "high_interest \~ sex + temconjugemaseresp + (incomeinterval \* educalevel) + assoc + paidjob + haskids + religion + candwchance + regiao", family = "binomial", data = polbr, na.action = na.omit) summary(binomial2.2) report(binomial2.2)
+
+Interações entre income e paidjob
+
+binomial2.3 \<- glm( formula = "high_interest \~ sex + temconjugemaseresp + (incomeinterval \* paidjob) + educalevel + assoc + haskids + religion + candwchance + regiao", family = "binomial", data = polbr, na.action = na.omit) summary(binomial2.3) report(binomial2.3)
+
+Interações entre income e assoc
+
+binomial2.4 \<- glm( formula = "high_interest \~ sex + temconjugemaseresp + (incomeinterval \* assoc) + paidjob + educalevel + haskids + religion + candwchance + regiao", family = "binomial", data = polbr, na.action = na.omit) summary(binomial2.4) report(binomial2.4)
+
+Interação entre incomeinterval e haskids:
+
+binomial2.5 \<- glm( formula = "high_interest \~ sex + temconjugemaseresp + (incomeinterval \* haskids) + educalevel + assoc + paidjob + religion + candwchance + regiao", family = "binomial", data = polbr2, na.action = na.omit) summary(binomial2.5) report(binomial2.5)
+
+?glm() report(binomial1) report(binomial2) report(binomial4)
+
+MICE: MULTIPLE IMPUTATION OF CHAINED EQUATIONS
+
+!Como exercício final!, iremos ver o impacto que a imputação de valores faltantes poderia ter sobre a especificação do modelo final.(DESISTI, temporariamente, em virtude de não consegui extrair os valores imputados do objeto para incluí-lo na base de dados original e realizar os testes estatísticos)
